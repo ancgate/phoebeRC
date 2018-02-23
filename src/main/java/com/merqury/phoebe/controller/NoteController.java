@@ -5,10 +5,23 @@
  */
 package com.merqury.phoebe.controller;
 
+import com.merqury.phoebe.beans.NoteFacade;
+import com.merqury.phoebe.entity.Note;
+import com.merqury.phoebe.entity.NoteType;
+import com.merqury.phoebe.facade.NoteFacadeLocal;
+import com.merqury.phoebe.facade.NoteTypeFacadeLocal;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+import javax.annotation.PostConstruct;
+import javax.ejb.EJB;
 import javax.inject.Named;
-import javax.enterprise.context.Dependent;
 import javax.enterprise.context.SessionScoped;
+import javax.faces.application.FacesMessage;
+import javax.faces.context.FacesContext;
+import org.primefaces.event.SelectEvent;
+import org.primefaces.event.UnselectEvent;
+import org.primefaces.model.LazyDataModel;
 
 /**
  *
@@ -18,10 +31,67 @@ import javax.enterprise.context.SessionScoped;
 @SessionScoped
 public class NoteController implements Serializable {
 
+    @EJB
+    private NoteFacadeLocal noteFacadeLocal;
+    private Note note = new Note();
+    
+    private Note selectedNote;
+    private List<Note> selectedNotes;
+
+    private Integer noteId;
+    private List<Note> notes;
+
+    private Integer[] selectedNoteType;
+    private List<NoteType> noteTypes;
+    @EJB
+    NoteTypeFacadeLocal noteTypeFacadeLocal;
+
+    private LazyDataModel <Note> lazyModelNote; 
+   
     /**
      * Creates a new instance of NoteController
      */
     public NoteController() {
     }
-    
+
+    @PostConstruct
+    public void init() {
+        noteTypes = new ArrayList<>();
+        noteTypes.addAll(noteTypeFacadeLocal.findAll());
+        notes = new ArrayList<>();
+        notes.addAll(noteFacadeLocal.findAll());
+    }
+
+    public String insert() {
+        this.noteFacadeLocal.create(note);
+        this.note = new Note();
+        return "index";
+    }
+
+    public void delete(Note note) {
+        this.noteFacadeLocal.remove(note);
+    }
+
+    public String update(Note note) {
+        this.note = note;
+        return "updateNote";
+    }
+
+    public String update() {
+        System.out.println(selectedNote);
+        note = noteFacadeLocal.find(selectedNote.getIdNote());
+        this.noteFacadeLocal.edit(note);
+        return "userList";
+    }
+
+    public void onRowSelect(SelectEvent event) {
+        FacesMessage msg = new FacesMessage("Note Selected", ((Note) event.getObject()).getIdNoteType().getNoteTypeName());
+        FacesContext.getCurrentInstance().addMessage(null, msg);
+    }
+
+    public void onRowUnselect(UnselectEvent event) {
+        FacesMessage msg = new FacesMessage("Note Unselected", ((Note) event.getObject()).getIdNoteType().getNoteTypeName());
+        FacesContext.getCurrentInstance().addMessage(null, msg);
+    }
+
 }

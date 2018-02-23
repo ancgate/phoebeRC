@@ -4,7 +4,7 @@
 
     <groupId>com.merqury</groupId>
     <artifactId>phoebe</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.2-SNAPSHOT</version>
     <packaging>war</packaging>
 
     <name>phoebe</name>
@@ -37,11 +37,6 @@
             <artifactId>evosuite-standalone-runtime</artifactId>
             <version>1.0.5</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.evosuite.plugins</groupId>
-            <artifactId>evosuite-maven-plugin</artifactId>
-            <version>1.0.5</version>
         </dependency>
         <dependency>
             <groupId>org.codehaus.mojo</groupId>
@@ -86,14 +81,6 @@
                 <groupId>org.evosuite.plugins</groupId>
                 <artifactId>evosuite-maven-plugin</artifactId>
                 <version>1.0.5</version>
-                <executions>
-                    <execution>
-                        <goals> 
-                            <goal> prepare </goal> 
-                        </goals>
-                        <phase> process-test-classes </phase>
-                    </execution>
-                </executions>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -143,13 +130,6 @@
             </plugin>
         </plugins>
     </build>
-    <repositories>
-        <repository>
-            <id>EvoSuite</id>
-            <name>EvoSuite Repository</name>
-            <url>http://www.evosuite.org/m2</url>
-        </repository>
-    </repositories>
     <pluginRepositories>
         <pluginRepository>
             <id>EvoSuite</id>

@@ -31,23 +31,20 @@ import org.primefaces.event.UnselectEvent;
 @SessionScoped
 public class UsersController implements Serializable {
 
+    @EJB
+    UsersFacadeLocal userFacadeLocal;
     private Users user = new Users();
     private Users selectedUser;
     private List<Users> selectedUsers;
 
-    private String username;
+    private Integer userId;
+
     private List<Users> usernames;
 
     private Integer[] selectedRoles;
     private List<Roles> roles;
-   
-    
-    
-    @EJB 
-    UsersFacadeLocal userFacadeLocal;
     @EJB
     RolesFacadeLocal rolesFacadeLocal;
-    
 
     @PostConstruct
     public void init() {
@@ -56,8 +53,8 @@ public class UsersController implements Serializable {
         usernames = new ArrayList<>();
         usernames.addAll(userFacadeLocal.findAll());
     }
-        
-     /**
+
+    /**
      * Creates a new instance of UsersController
      */
     public UsersController() {
@@ -87,12 +84,12 @@ public class UsersController implements Serializable {
         this.selectedUsers = selectedUsers;
     }
 
-    public String getUsername() {
-        return username;
+    public Integer getUserId() {
+        return userId;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
     public List<Users> getUsernames() {
@@ -111,8 +108,6 @@ public class UsersController implements Serializable {
         this.selectedRoles = selectedRoles;
     }
 
-
-
     public List<Roles> getRoles() {
         return roles;
     }
@@ -120,7 +115,7 @@ public class UsersController implements Serializable {
     public void setRoles(List<Roles> roles) {
         this.roles = roles;
     }
-    
+
     public String insert() {
         this.userFacadeLocal.create(user);
         this.user = new Users();
@@ -132,13 +127,13 @@ public class UsersController implements Serializable {
     }
 
     public String update(Users user) {
-       this.user=user;
-       return "updateUser";
+        this.user = user;
+        return "updateUser";
     }
 
-    public String update() {       
+    public String update() {
         System.out.println(selectedRoles);
-        user=userFacadeLocal.find(username);
+        user = userFacadeLocal.find(userId);
         List<Roles> rolesAssigned = Arrays.stream(selectedRoles).map(
                 rolesFacadeLocal::find)
                 .collect(Collectors.toList());

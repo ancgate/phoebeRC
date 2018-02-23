@@ -23,4 +23,7 @@ public class PrayerRequestNatureController implements Serializable {
     public PrayerRequestNatureController() {
     }
     
+    
+    
+    
 }

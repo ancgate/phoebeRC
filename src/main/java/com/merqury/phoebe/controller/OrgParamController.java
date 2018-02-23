@@ -24,4 +24,7 @@ public class OrgParamController implements Serializable{
     public OrgParamController() {
     }
     
+    
+    
+    
 }

@@ -23,4 +23,7 @@ public class UserLoginHistoryController implements Serializable {
     public UserLoginHistoryController() {
     }
     
+    
+    
+    
 }
