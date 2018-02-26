@@ -1,0 +1,211 @@
+* Starting client
+* Connecting to master process on port 10782
+* Analyzing classpath: 
+  - /Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/target/test-classes
+  - /Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/target/classes
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/eclipselink/2.5.2/eclipselink-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/javax.persistence/2.1.0/javax.persistence-2.1.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/commonj.sdo/2.1.1/commonj.sdo-2.1.1.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa.modelgen.processor/2.5.2/org.eclipse.persistence.jpa.modelgen.processor-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.core/2.5.2/org.eclipse.persistence.core-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.asm/2.5.2/org.eclipse.persistence.asm-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa/2.5.2/org.eclipse.persistence.jpa-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.antlr/2.5.2/org.eclipse.persistence.antlr-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa.jpql/2.5.2/org.eclipse.persistence.jpa.jpql-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/primefaces/primefaces/6.1/primefaces-6.1.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/codehaus/mojo/build-helper-maven-plugin/3.0.0/build-helper-maven-plugin-3.0.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/shared/file-management/3.0.0/file-management-3.0.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/shared/maven-shared-io/3.0.0/maven-shared-io-3.0.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-compat/3.0/maven-compat-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/wagon/wagon-provider-api/2.10/wagon-provider-api-2.10.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar
+  - /Users/jeffersonbienaime/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.jar
+  - /Users/jeffersonbienaime/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[MASTER] 16:03:43.534 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.component.UIComponent
+[MASTER] 16:03:43.547 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.component.behavior.Behavior
+[MASTER] 16:03:43.550 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.event.FacesListener
+[MASTER] 16:03:43.940 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.context.FacesContext
+[MASTER] 16:03:44.202 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.el.ValueBinding
+[MASTER] 16:03:44.210 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.event.ComponentSystemEventListener
+[MASTER] 16:03:44.210 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.component.visit.VisitContext
+* Finished analyzing classpath
+* Generating tests for class com.merqury.phoebe.controller.UsersController
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 16:03:45.732 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/evosuite-seeds/com.merqury.phoebe.controller.UsersController.seed
+* Loaded 0 tests from /Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/evosuite-seeds/com.merqury.phoebe.controller.UsersController.seed
+* Total number of test goals: 
+  - Line 49
+  - Branch 22
+  - Exception 0
+  - MutationFactory 5
+  - Output 53
+  - Method 22
+  - MethodNoException 22
+  - CBranchFitnessFactory 22
+* Using seed 1519679019134
+* Starting evolution
+[MASTER] 16:03:45.861 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 1 seconds more than allowed.
+[MASTER] 16:03:46.696 [pool-2-thread-1] WARN  TestFactory - Bounded variable issue when calling createVariable()
+[MASTER] 16:03:59.715 [pool-2-thread-1] WARN  TestSuiteFitnessFunction - TG: Exception caught: Conflicting persistence unit definitions for name 'EvoSuiteDB': file:/Users/jeffersonbienaime/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar, file:/Users/jeffersonbienaime/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.0.5/evosuite-standalone-runtime-1.0.5.jar
+java.lang.IllegalStateException: Conflicting persistence unit definitions for name 'EvoSuiteDB': file:/Users/jeffersonbienaime/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar, file:/Users/jeffersonbienaime/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.0.5/evosuite-standalone-runtime-1.0.5.jar
+	at org.evosuite.shaded.org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.preparePersistenceUnitInfos(DefaultPersistenceUnitManager.java:472) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.afterPropertiesSet(DefaultPersistenceUnitManager.java:426) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:325) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.javaee.javax.persistence.EvoEntityManagerFactory.createEMFWithSpring(EvoEntityManagerFactory.java:96) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.javaee.javax.persistence.EvoEntityManagerFactory.<init>(EvoEntityManagerFactory.java:50) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.javaee.db.DBManager.initDB(DBManager.java:147) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.Runtime.resetRuntime(Runtime.java:115) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:303) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:277) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:264) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testsuite.TestSuiteFitnessFunction.runTest(TestSuiteFitnessFunction.java:63) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.TestChromosome.executeForFitnessFunction(TestChromosome.java:674) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testsuite.TestSuiteFitnessFunction.runTestSuite(TestSuiteFitnessFunction.java:97) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.coverage.line.LineCoverageSuiteFitness.getFitness(LineCoverageSuiteFitness.java:154) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.coverage.line.LineCoverageSuiteFitness.getFitness(LineCoverageSuiteFitness.java:45) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.ga.metaheuristics.GeneticAlgorithm.calculateFitnessAndSortPopulation(GeneticAlgorithm.java:595) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.ga.metaheuristics.MonotonicGA.initializePopulation(MonotonicGA.java:206) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.ga.metaheuristics.MonotonicGA.generateSolution(MonotonicGA.java:223) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.strategy.WholeTestSuiteStrategy.generateTests(WholeTestSuiteStrategy.java:113) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:653) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:236) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-master-1.0.5.jar:1.0.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+[MASTER] 16:04:07.511 [pool-2-thread-1] WARN  TestSuiteFitnessFunction - TG: Exception caught: Conflicting persistence unit definitions for name 'EvoSuiteDB': file:/Users/jeffersonbienaime/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar, file:/Users/jeffersonbienaime/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.0.5/evosuite-standalone-runtime-1.0.5.jar
+java.lang.IllegalStateException: Conflicting persistence unit definitions for name 'EvoSuiteDB': file:/Users/jeffersonbienaime/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar, file:/Users/jeffersonbienaime/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.0.5/evosuite-standalone-runtime-1.0.5.jar
+	at org.evosuite.shaded.org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.preparePersistenceUnitInfos(DefaultPersistenceUnitManager.java:472) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.afterPropertiesSet(DefaultPersistenceUnitManager.java:426) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:325) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.javaee.javax.persistence.EvoEntityManagerFactory.createEMFWithSpring(EvoEntityManagerFactory.java:96) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.javaee.javax.persistence.EvoEntityManagerFactory.<init>(EvoEntityManagerFactory.java:50) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.javaee.db.DBManager.initDB(DBManager.java:147) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.Runtime.resetRuntime(Runtime.java:115) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:303) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:277) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:264) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testsuite.TestSuiteFitnessFunction.runTest(TestSuiteFitnessFunction.java:63) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.TestChromosome.executeForFitnessFunction(TestChromosome.java:674) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testsuite.TestSuiteFitnessFunction.runTestSuite(TestSuiteFitnessFunction.java:97) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.coverage.line.LineCoverageSuiteFitness.getFitness(LineCoverageSuiteFitness.java:154) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.coverage.line.LineCoverageSuiteFitness.getFitness(LineCoverageSuiteFitness.java:45) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.ga.metaheuristics.GeneticAlgorithm.calculateFitnessAndSortPopulation(GeneticAlgorithm.java:595) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.ga.metaheuristics.MonotonicGA.initializePopulation(MonotonicGA.java:206) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.ga.metaheuristics.MonotonicGA.generateSolution(MonotonicGA.java:223) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.strategy.WholeTestSuiteStrategy.generateTests(WholeTestSuiteStrategy.java:113) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:653) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:236) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-master-1.0.5.jar:1.0.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+[MASTER] 16:04:13.604 [pool-2-thread-1] WARN  TestSuiteFitnessFunction - TG: Exception caught: Conflicting persistence unit definitions for name 'EvoSuiteDB': file:/Users/jeffersonbienaime/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar, file:/Users/jeffersonbienaime/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.0.5/evosuite-standalone-runtime-1.0.5.jar
+java.lang.IllegalStateException: Conflicting persistence unit definitions for name 'EvoSuiteDB': file:/Users/jeffersonbienaime/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar, file:/Users/jeffersonbienaime/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.0.5/evosuite-standalone-runtime-1.0.5.jar
+	at org.evosuite.shaded.org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.preparePersistenceUnitInfos(DefaultPersistenceUnitManager.java:472) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.afterPropertiesSet(DefaultPersistenceUnitManager.java:426) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:325) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.javaee.javax.persistence.EvoEntityManagerFactory.createEMFWithSpring(EvoEntityManagerFactory.java:96) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.javaee.javax.persistence.EvoEntityManagerFactory.<init>(EvoEntityManagerFactory.java:50) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.javaee.db.DBManager.initDB(DBManager.java:147) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.Runtime.resetRuntime(Runtime.java:115) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:303) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:277) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:264) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testsuite.TestSuiteFitnessFunction.runTest(TestSuiteFitnessFunction.java:63) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.TestChromosome.executeForFitnessFunction(TestChromosome.java:674) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testsuite.TestSuiteFitnessFunction.runTestSuite(TestSuiteFitnessFunction.java:97) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.coverage.line.LineCoverageSuiteFitness.getFitness(LineCoverageSuiteFitness.java:154) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.coverage.line.LineCoverageSuiteFitness.getFitness(LineCoverageSuiteFitness.java:45) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.ga.metaheuristics.GeneticAlgorithm.calculateFitnessAndSortPopulation(GeneticAlgorithm.java:595) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.ga.metaheuristics.MonotonicGA.initializePopulation(MonotonicGA.java:206) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.ga.metaheuristics.MonotonicGA.generateSolution(MonotonicGA.java:223) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.strategy.WholeTestSuiteStrategy.generateTests(WholeTestSuiteStrategy.java:113) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:653) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:236) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-master-1.0.5.jar:1.0.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+[MASTER] 16:04:18.642 [pool-2-thread-1] WARN  TestSuiteFitnessFunction - TG: Exception caught: Conflicting persistence unit definitions for name 'EvoSuiteDB': file:/Users/jeffersonbienaime/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar, file:/Users/jeffersonbienaime/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.0.5/evosuite-standalone-runtime-1.0.5.jar
+java.lang.IllegalStateException: Conflicting persistence unit definitions for name 'EvoSuiteDB': file:/Users/jeffersonbienaime/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar, file:/Users/jeffersonbienaime/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.0.5/evosuite-standalone-runtime-1.0.5.jar
+	at org.evosuite.shaded.org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.preparePersistenceUnitInfos(DefaultPersistenceUnitManager.java:472) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.afterPropertiesSet(DefaultPersistenceUnitManager.java:426) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:325) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.javaee.javax.persistence.EvoEntityManagerFactory.createEMFWithSpring(EvoEntityManagerFactory.java:96) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.javaee.javax.persistence.EvoEntityManagerFactory.<init>(EvoEntityManagerFactory.java:50) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.javaee.db.DBManager.initDB(DBManager.java:147) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.Runtime.resetRuntime(Runtime.java:115) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:303) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:277) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:264) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testsuite.TestSuiteFitnessFunction.runTest(TestSuiteFitnessFunction.java:63) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.TestChromosome.executeForFitnessFunction(TestChromosome.java:674) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testsuite.TestSuiteFitnessFunction.runTestSuite(TestSuiteFitnessFunction.java:97) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.coverage.line.LineCoverageSuiteFitness.getFitness(LineCoverageSuiteFitness.java:154) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.coverage.line.LineCoverageSuiteFitness.getFitness(LineCoverageSuiteFitness.java:45) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.ga.metaheuristics.GeneticAlgorithm.calculateFitnessAndSortPopulation(GeneticAlgorithm.java:595) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.ga.metaheuristics.MonotonicGA.initializePopulation(MonotonicGA.java:206) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.ga.metaheuristics.MonotonicGA.generateSolution(MonotonicGA.java:223) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.strategy.WholeTestSuiteStrategy.generateTests(WholeTestSuiteStrategy.java:113) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:653) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:236) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-master-1.0.5.jar:1.0.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+[MASTER] 16:04:23.984 [pool-2-thread-1] WARN  TimeController - Phase SEARCH lasted too long, 8 seconds more than allowed.

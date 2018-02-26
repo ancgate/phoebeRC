@@ -1,0 +1,148 @@
+* Starting client
+* Connecting to master process on port 10569
+* Analyzing classpath: 
+  - /Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/target/test-classes
+  - /Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/target/classes
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/eclipselink/2.5.2/eclipselink-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/javax.persistence/2.1.0/javax.persistence-2.1.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/commonj.sdo/2.1.1/commonj.sdo-2.1.1.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa.modelgen.processor/2.5.2/org.eclipse.persistence.jpa.modelgen.processor-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.core/2.5.2/org.eclipse.persistence.core-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.asm/2.5.2/org.eclipse.persistence.asm-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa/2.5.2/org.eclipse.persistence.jpa-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.antlr/2.5.2/org.eclipse.persistence.antlr-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa.jpql/2.5.2/org.eclipse.persistence.jpa.jpql-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/primefaces/primefaces/6.1/primefaces-6.1.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/codehaus/mojo/build-helper-maven-plugin/3.0.0/build-helper-maven-plugin-3.0.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/shared/file-management/3.0.0/file-management-3.0.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/shared/maven-shared-io/3.0.0/maven-shared-io-3.0.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-compat/3.0/maven-compat-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/wagon/wagon-provider-api/2.10/wagon-provider-api-2.10.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar
+  - /Users/jeffersonbienaime/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.jar
+  - /Users/jeffersonbienaime/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[MASTER] 15:50:48.622 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.component.UIComponent
+[MASTER] 15:50:48.712 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.component.behavior.ClientBehavior
+[MASTER] 15:50:48.757 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.context.FacesContext
+[MASTER] 15:50:48.898 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.el.ValueBinding
+[MASTER] 15:50:48.908 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.event.ComponentSystemEventListener
+[MASTER] 15:50:48.910 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.component.visit.VisitContext
+[MASTER] 15:50:48.966 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.validator.Validator
+[MASTER] 15:50:48.967 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.event.ValueChangeListener
+[MASTER] 15:50:48.983 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.convert.Converter
+[MASTER] 15:50:49.091 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.event.FacesListener
+[MASTER] 15:50:49.107 [pool-2-thread-1] WARN  MethodCallReplacementClassAdapter - Failed to add serialId to class org/primefaces/model/DefaultUploadedFile: Lorg/apache/commons/fileupload/FileItem;
+[MASTER] 15:50:49.136 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.context.ExceptionHandler
+[MASTER] 15:50:49.139 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.context.ResponseStream
+[MASTER] 15:50:49.139 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.context.ResponseWriter
+[MASTER] 15:50:49.213 [pool-2-thread-1] WARN  CheapPurityAnalyzer - org.apache.commons.fileupload.FileItem was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 15:50:49.213 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: org.apache.commons.fileupload.FileItem
+[MASTER] 15:50:49.213 [pool-2-thread-1] WARN  CheapPurityAnalyzer - org.apache.commons.fileupload.FileItem was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 15:50:49.214 [pool-2-thread-1] WARN  CheapPurityAnalyzer - org.apache.commons.fileupload.FileItem was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 15:50:49.214 [pool-2-thread-1] WARN  CheapPurityAnalyzer - org.apache.commons.fileupload.FileItem was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 15:50:49.214 [pool-2-thread-1] WARN  CheapPurityAnalyzer - org.apache.commons.fileupload.FileItem was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 15:50:49.285 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.el.MethodExpression
+[MASTER] 15:50:49.315 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.el.EvaluationListener
+[MASTER] 15:50:49.672 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.event.SystemEvent
+[MASTER] 15:50:49.793 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: javax.faces.lifecycle.Lifecycle
+* Finished analyzing classpath
+* Generating tests for class com.merqury.phoebe.util.JsfUtil
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 15:50:50.487 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/evosuite-seeds/com.merqury.phoebe.util.JsfUtil.seed
+* Loaded 0 tests from /Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/evosuite-seeds/com.merqury.phoebe.util.JsfUtil.seed
+* Total number of test goals: 
+  - Line 45
+  - Branch 29
+  - Exception 0
+  - MutationFactory 30
+  - Output 9
+  - Method 10
+  - MethodNoException 10
+  - CBranchFitnessFactory 29
+* Using seed 1519678243902
+* Starting evolution
+* Search finished after 323s and 3147 generations, 345808 statements, best individual has fitness: 95.06349206349206
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 56%
+* Total number of goals: 45
+* Number of covered goals: 25
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 55%
+* Total number of goals: 29
+* Number of covered goals: 16
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 8
+* Number of covered goals: 8
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 53%
+* Total number of goals: 30
+* Number of covered goals: 16
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 33%
+* Total number of goals: 9
+* Number of covered goals: 3
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 10
+* Number of covered goals: 10
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 40%
+* Total number of goals: 10
+* Number of covered goals: 4
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 55%
+* Total number of goals: 29
+* Number of covered goals: 16
+* Generated 16 tests with total length 27
+* Resulting test suite's coverage: 54% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 27%
+* Compiling and checking tests
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 32
+* Writing JUnit test case 'JsfUtil_ESTest' to /Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_26_15_50_40/tests
+* Done!
+

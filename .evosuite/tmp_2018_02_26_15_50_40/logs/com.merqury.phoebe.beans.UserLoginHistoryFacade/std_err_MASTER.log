@@ -1,0 +1,6 @@
+[MASTER] 16:09:50.780 [main] ERROR ExternalProcessHandler - Class com.merqury.phoebe.beans.UserLoginHistoryFacade. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 16:09:50.887 [main] ERROR SearchStatistics - No obtained value for output variable: LineCoverage
+[MASTER] 16:09:51.892 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 16:09:51.998 [main] ERROR TestGeneration - failed to write statistics data

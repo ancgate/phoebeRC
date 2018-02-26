@@ -1,0 +1,86 @@
+* Starting client
+* Connecting to master process on port 3022
+* Analyzing classpath: 
+  - /Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/target/test-classes
+  - /Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/target/classes
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/eclipselink/2.5.2/eclipselink-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/javax.persistence/2.1.0/javax.persistence-2.1.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/commonj.sdo/2.1.1/commonj.sdo-2.1.1.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa.modelgen.processor/2.5.2/org.eclipse.persistence.jpa.modelgen.processor-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.core/2.5.2/org.eclipse.persistence.core-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.asm/2.5.2/org.eclipse.persistence.asm-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa/2.5.2/org.eclipse.persistence.jpa-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.antlr/2.5.2/org.eclipse.persistence.antlr-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa.jpql/2.5.2/org.eclipse.persistence.jpa.jpql-2.5.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/primefaces/primefaces/6.1/primefaces-6.1.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/codehaus/mojo/build-helper-maven-plugin/3.0.0/build-helper-maven-plugin-3.0.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/shared/file-management/3.0.0/file-management-3.0.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/shared/maven-shared-io/3.0.0/maven-shared-io-3.0.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-compat/3.0/maven-compat-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/wagon/wagon-provider-api/2.10/wagon-provider-api-2.10.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar
+  - /Users/jeffersonbienaime/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.jar
+  - /Users/jeffersonbienaime/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar
+  - /Users/jeffersonbienaime/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /Users/jeffersonbienaime/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[MASTER] 15:50:54.120 [pool-2-thread-1] WARN  MethodCallReplacementClassAdapter - Failed to add serialId to class org/eclipse/persistence/eis/EISLogin: javax/resource/cci/ConnectionSpec
+[MASTER] 15:50:56.478 [pool-2-thread-1] WARN  MethodCallReplacementClassAdapter - Failed to add serialId to class org/eclipse/persistence/platform/database/oracle/ucp/GridLinkDataPartitioningCallback: oracle/ucp/jdbc/oracle/DataBasedConnectionAffinityCallback
+[MASTER] 15:50:56.479 [pool-2-thread-1] WARN  MethodCallReplacementClassAdapter - Failed to add serialId to class org/eclipse/persistence/platform/database/oracle/ucp/UCPDataPartitioningCallback: oracle/ucp/jdbc/oracle/DataBasedConnectionAffinityCallback
+[MASTER] 15:50:56.482 [pool-2-thread-1] WARN  MethodCallReplacementClassAdapter - Failed to add serialId to class org/eclipse/persistence/platform/database/oracle/ucp/UCPDataPartitioningCallback: oracle/ucp/jdbc/oracle/DataBasedConnectionAffinityCallback
+[MASTER] 15:50:58.908 [pool-2-thread-1] WARN  CheapPurityAnalyzer - oracle.spatial.geometry.JGeometry was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 15:50:58.909 [pool-2-thread-1] WARN  InheritanceTree - Class not in inheritance graph: oracle.spatial.geometry.JGeometry
+[MASTER] 15:50:58.910 [pool-2-thread-1] WARN  CheapPurityAnalyzer - oracle.spatial.geometry.JGeometry was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+* Finished analyzing classpath
+* Generating tests for class com.merqury.phoebe.beans.AbstractFacade
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 15:51:08.299 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/evosuite-seeds/com.merqury.phoebe.beans.AbstractFacade.seed
+* Loaded 0 tests from /Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/evosuite-seeds/com.merqury.phoebe.beans.AbstractFacade.seed
+* Total number of test goals: 
+  - Line 66
+  - Branch 30
+  - Exception 0
+  - MutationFactory 50
+  - Output 27
+  - Method 10
+  - MethodNoException 10
+  - CBranchFitnessFactory 30
+* Using seed 1519678243892
+* Starting evolution
+* Search finished after 341s and 0 generations, 0 statements, best individual has fitness: 0.0
+[MASTER] 15:57:02.641 [pool-2-thread-1] WARN  TimeController - Phase SEARCH lasted too long, 57 seconds more than allowed.
