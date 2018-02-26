@@ -5,7 +5,6 @@
  */
 package com.merqury.phoebe.beans;
 
-import com.merqury.phoebe.facade.PersonFacadeLocal;
 import com.merqury.phoebe.entity.Person;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
@@ -16,9 +15,9 @@ import javax.persistence.PersistenceContext;
  * @author jeffersonbienaime
  */
 @Stateless
-public class PersonFacade extends AbstractFacade<Person> implements PersonFacadeLocal {
+public class PersonFacade extends AbstractFacade<Person> {
 
-    @PersistenceContext(unitName = "com.merqury_phoebe_war_1.0-SNAPSHOTPU")
+    @PersistenceContext
     private EntityManager em;
 
     @Override

@@ -6,10 +6,9 @@
 package com.merqury.phoebe.controller;
 
 import com.merqury.phoebe.beans.NoteFacade;
+import com.merqury.phoebe.beans.NoteTypeFacade;
 import com.merqury.phoebe.entity.Note;
 import com.merqury.phoebe.entity.NoteType;
-import com.merqury.phoebe.facade.NoteFacadeLocal;
-import com.merqury.phoebe.facade.NoteTypeFacadeLocal;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +18,7 @@ import javax.inject.Named;
 import javax.enterprise.context.SessionScoped;
 import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
+import javax.inject.Inject;
 import org.primefaces.event.SelectEvent;
 import org.primefaces.event.UnselectEvent;
 import org.primefaces.model.LazyDataModel;
@@ -31,8 +31,8 @@ import org.primefaces.model.LazyDataModel;
 @SessionScoped
 public class NoteController implements Serializable {
 
-    @EJB
-    private NoteFacadeLocal noteFacadeLocal;
+    @Inject
+    private NoteFacade noteFacadeLocal;
     private Note note = new Note();
     
     private Note selectedNote;
@@ -43,8 +43,8 @@ public class NoteController implements Serializable {
 
     private Integer[] selectedNoteType;
     private List<NoteType> noteTypes;
-    @EJB
-    NoteTypeFacadeLocal noteTypeFacadeLocal;
+    @Inject
+    NoteTypeFacade noteTypeFacadeLocal;
 
     private LazyDataModel <Note> lazyModelNote; 
    
@@ -79,7 +79,7 @@ public class NoteController implements Serializable {
 
     public String update() {
         System.out.println(selectedNote);
-        note = noteFacadeLocal.find(selectedNote.getIdNote());
+        note = noteFacadeLocal.find(selectedNote.getIdentifier());
         this.noteFacadeLocal.edit(note);
         return "userList";
     }

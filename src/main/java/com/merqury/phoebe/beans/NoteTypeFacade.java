@@ -5,7 +5,6 @@
  */
 package com.merqury.phoebe.beans;
 
-import com.merqury.phoebe.facade.NoteTypeFacadeLocal;
 import com.merqury.phoebe.entity.NoteType;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
@@ -16,9 +15,9 @@ import javax.persistence.PersistenceContext;
  * @author jeffersonbienaime
  */
 @Stateless
-public class NoteTypeFacade extends AbstractFacade<NoteType> implements NoteTypeFacadeLocal {
+public class NoteTypeFacade extends AbstractFacade<NoteType> {
 
-    @PersistenceContext(unitName = "com.merqury_phoebe_war_1.0-SNAPSHOTPU")
+    @PersistenceContext
     private EntityManager em;
 
     @Override
@@ -29,5 +28,5 @@ public class NoteTypeFacade extends AbstractFacade<NoteType> implements NoteType
     public NoteTypeFacade() {
         super(NoteType.class);
     }
-    
+
 }

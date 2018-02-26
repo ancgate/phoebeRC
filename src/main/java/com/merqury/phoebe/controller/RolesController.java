@@ -6,10 +6,10 @@
 package com.merqury.phoebe.controller;
 
 
+import com.merqury.phoebe.beans.PermissionsFacade;
+import com.merqury.phoebe.beans.RolesFacade;
 import com.merqury.phoebe.entity.Permissions;
 import com.merqury.phoebe.entity.Roles;
-import com.merqury.phoebe.facade.PermissionsFacadeLocal;
-import com.merqury.phoebe.facade.RolesFacadeLocal;
 import javax.inject.Named;
 import javax.enterprise.context.SessionScoped;
 import java.io.Serializable;
@@ -18,7 +18,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 import javax.annotation.PostConstruct;
-import javax.ejb.EJB;
+import javax.inject.Inject;
 
 /**
  *
@@ -28,10 +28,10 @@ import javax.ejb.EJB;
 @SessionScoped
 public class RolesController implements Serializable {
 
-    @EJB
-    private RolesFacadeLocal roleFacade;
-    @EJB
-    private PermissionsFacadeLocal permissionFacade;
+    @Inject
+    private RolesFacade roleFacade;
+    @Inject
+    private PermissionsFacade permissionFacade;
     
     
     private Roles role = new Roles();

@@ -5,7 +5,6 @@
  */
 package com.merqury.phoebe.beans;
 
-import com.merqury.phoebe.facade.RolesFacadeLocal;
 import com.merqury.phoebe.entity.Permissions;
 import com.merqury.phoebe.entity.Roles;
 import java.util.List;
@@ -20,9 +19,9 @@ import javax.persistence.TypedQuery;
  * @author jeffersonbienaime
  */
 @Stateless
-public class RolesFacade extends AbstractFacade<Roles> implements RolesFacadeLocal {
+public class RolesFacade extends AbstractFacade<Roles> {
 
-    @PersistenceContext(unitName = "com.merqury_phoebe_war_1.0-SNAPSHOTPU")
+    @PersistenceContext
     private EntityManager em;
 
     @Override
@@ -34,7 +33,6 @@ public class RolesFacade extends AbstractFacade<Roles> implements RolesFacadeLoc
         super(Roles.class);
     }
     
-    @Override
     public List <Permissions> listOfPermissionsInRole(Integer idRole){        
       TypedQuery<Permissions> query = em.createNamedQuery("Permissions.FindPermissionsInRole", Permissions.class);  
       query.setParameter("idRole", idRole);  

@@ -39,7 +39,7 @@ import javax.xml.bind.annotation.XmlRootElement;
     @NamedQuery(name = "UserLoginHistory.findByRemoteAddress", query = "SELECT u FROM UserLoginHistory u WHERE u.remoteAddress = :remoteAddress"),
     @NamedQuery(name = "UserLoginHistory.findByUserRole", query = "SELECT u FROM UserLoginHistory u WHERE u.userRole = :userRole"),
     @NamedQuery(name = "UserLoginHistory.findByLoginDate", query = "SELECT u FROM UserLoginHistory u WHERE u.loginDate = :loginDate")})
-public class UserLoginHistory implements Serializable {
+public class UserLoginHistory implements Identifiable, Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
@@ -90,10 +90,21 @@ public class UserLoginHistory implements Serializable {
         this.remoteAddress = remoteAddress;
         this.userRole = userRole;
         this.loginDate = loginDate;
+        
+    }
+    
+    public UserLoginHistory(String hostName, String computerName, String remoteAddress, String userRole, Date loginDate, Users user) {
+        this.hostName = hostName;
+        this.computerName = computerName;
+        this.remoteAddress = remoteAddress;
+        this.userRole = userRole;
+        this.loginDate = loginDate;
+        this.idUser = user;
     }
 
-    public Integer getIdUserLoginHistory() {
-        return idUserLoginHistory;
+    @Override
+    public Integer getIdentifier() {
+        return idUserLoginHistory ;
     }
 
     public void setIdUserLoginHistory(Integer idUserLoginHistory) {

@@ -5,10 +5,13 @@
  */
 package com.merqury.phoebe.controller;
 
+import com.merqury.phoebe.beans.AbstractFacade;
+import com.merqury.phoebe.beans.OrgParamFacade;
+import com.merqury.phoebe.entity.OrgParam;
 import java.io.Serializable;
 import javax.inject.Named;
-import javax.enterprise.context.Dependent;
 import javax.enterprise.context.SessionScoped;
+import javax.inject.Inject;
 
 /**
  *
@@ -16,15 +19,22 @@ import javax.enterprise.context.SessionScoped;
  */
 @Named(value = "orgParamController")
 @SessionScoped
-public class OrgParamController implements Serializable{
+public class OrgParamController extends AbstractController<OrgParam> implements Serializable{
 
+    @Inject
+    private OrgParamFacade orgParamfacade;
+    
     /**
      * Creates a new instance of OrgParamController
      */
     public OrgParamController() {
+        super(OrgParam.class);
     }
-    
-    
+
+    @Override
+    protected AbstractFacade<OrgParam> getFacade() {
+        return  orgParamfacade;
+    }   
     
     
 }

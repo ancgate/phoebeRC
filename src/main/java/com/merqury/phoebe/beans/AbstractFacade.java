@@ -6,6 +6,7 @@
 package com.merqury.phoebe.beans;
 
 
+import com.merqury.phoebe.entity.Identifiable;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
@@ -21,7 +22,7 @@ import org.primefaces.model.SortOrder;
  * @author jeffersonbienaime
  * @param <T>
  */
-public abstract class AbstractFacade<T> {
+public abstract class AbstractFacade<T extends Identifiable> {
 
     private final Class<T> entityClass;
 
@@ -43,7 +44,7 @@ public abstract class AbstractFacade<T> {
         getEntityManager().remove(getEntityManager().merge(entity));
     }
 
-    public T find(Object id) {
+    public T find(Integer id) {
         return getEntityManager().find(entityClass, id);
     }
 

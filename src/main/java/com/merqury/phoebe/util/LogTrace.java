@@ -17,7 +17,15 @@ import java.util.logging.SimpleFormatter;
  */
 public class LogTrace {
     
-    
+    /**
+     *
+     * @param action
+     * @param username
+     * @param hostname
+     * @param computerName
+     * @param remoteAddress
+     * @throws IOException
+     */
     public static void Log(String action, String username, String hostname, String computerName, String remoteAddress) throws IOException {
  
         Logger logger = Logger.getLogger("MyLog");

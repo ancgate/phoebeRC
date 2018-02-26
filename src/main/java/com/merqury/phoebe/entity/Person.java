@@ -59,7 +59,7 @@ import javax.xml.bind.annotation.XmlTransient;
     @NamedQuery(name = "Person.findByDateWedding", query = "SELECT p FROM Person p WHERE p.dateWedding = :dateWedding"),
     @NamedQuery(name = "Person.findByDateEntry", query = "SELECT p FROM Person p WHERE p.dateEntry = :dateEntry"),
     @NamedQuery(name = "Person.findByPhotoPath", query = "SELECT p FROM Person p WHERE p.photoPath = :photoPath")})
-public class Person implements Serializable {
+public class Person implements Identifiable, Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
@@ -218,8 +218,9 @@ public class Person implements Serializable {
         this.idMaritalStatus = idMaritalStatus;
     }
 
-    public Integer getIdPerson() {
-        return idPerson;
+    @Override
+    public Integer getIdentifier() {
+        return idPerson ;
     }
 
     public void setIdPerson(Integer idPerson) {

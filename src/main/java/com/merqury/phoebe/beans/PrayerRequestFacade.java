@@ -5,7 +5,6 @@
  */
 package com.merqury.phoebe.beans;
 
-import com.merqury.phoebe.facade.PrayerRequestFacadeLocal;
 import com.merqury.phoebe.entity.PrayerRequest;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
@@ -16,9 +15,9 @@ import javax.persistence.PersistenceContext;
  * @author jeffersonbienaime
  */
 @Stateless
-public class PrayerRequestFacade extends AbstractFacade<PrayerRequest> implements PrayerRequestFacadeLocal {
+public class PrayerRequestFacade extends AbstractFacade<PrayerRequest> {
 
-    @PersistenceContext(unitName = "com.merqury_phoebe_war_1.0-SNAPSHOTPU")
+    @PersistenceContext
     private EntityManager em;
 
     @Override

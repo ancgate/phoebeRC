@@ -19,6 +19,11 @@ import javax.faces.context.FacesContext;
  */
 public class JsfUtil {
 
+    /**
+     *
+     * @param ex
+     * @param defaultMsg
+     */
     public static void addErrorMessage(Exception ex, String defaultMsg) {
         String msg = ex.getLocalizedMessage();
         if (msg != null && msg.length() > 0) {
@@ -28,12 +33,20 @@ public class JsfUtil {
         }
     }
 
+    /**
+     *
+     * @param messages
+     */
     public static void addErrorMessages(List<String> messages) {
         for (String message : messages) {
             addErrorMessage(message);
         }
     }
 
+    /**
+     *
+     * @param msg
+     */
     public static void addErrorMessage(String msg) {
         FacesMessage facesMsg = new FacesMessage(FacesMessage.SEVERITY_ERROR, msg, msg);
         FacesContext.getCurrentInstance().addMessage(null, facesMsg);
@@ -41,17 +54,30 @@ public class JsfUtil {
 
     }
     
+    /**
+     *
+     * @param msg
+     */
     public static void addExclamationMessage(String msg){
         FacesMessage facesMsg=new FacesMessage(FacesMessage.SEVERITY_WARN,msg,msg);
         FacesContext.getCurrentInstance().addMessage(null, facesMsg);
         FacesContext.getCurrentInstance().validationFailed();
     }
 
+    /**
+     *
+     * @param msg
+     */
     public static void addSuccessMessage(String msg) {
         FacesMessage facesMsg = new FacesMessage(FacesMessage.SEVERITY_INFO, msg, msg);
         FacesContext.getCurrentInstance().addMessage("successInfo", facesMsg);
     }
 
+    /**
+     *
+     * @param cause
+     * @return
+     */
     public static Throwable getRootCause(Throwable cause) {
         if (cause != null) {
             Throwable source = cause.getCause();
@@ -64,10 +90,20 @@ public class JsfUtil {
         return null;
     }
 
+    /**
+     *
+     * @return
+     */
     public static boolean isValidationFailed() {
         return FacesContext.getCurrentInstance().isValidationFailed();
     }
 
+    /**
+     *
+     * @param component
+     * @param value
+     * @return
+     */
     public static boolean isDummySelectItem(UIComponent component, String value) {
         for (UIComponent children : component.getChildren()) {
             if (children instanceof UISelectItem) {
@@ -81,6 +117,12 @@ public class JsfUtil {
         return false;
     }
 
+    /**
+     *
+     * @param clientComponent
+     * @param defaultMessage
+     * @return
+     */
     public static String getComponentMessages(String clientComponent, String defaultMessage) {
         FacesContext fc = FacesContext.getCurrentInstance();
         UIComponent component = UIComponent.getCurrentComponent(fc).findComponent(clientComponent);

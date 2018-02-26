@@ -5,13 +5,13 @@
  */
 package com.merqury.phoebe.controller;
 
+import com.merqury.phoebe.beans.AbstractFacade;
 import com.merqury.phoebe.beans.MaritalStatusFacade;
 import com.merqury.phoebe.entity.MaritalStatus;
 import javax.inject.Named;
 import javax.enterprise.context.SessionScoped;
 import java.io.Serializable;
-import java.util.List;
-import javax.ejb.EJB;
+import javax.inject.Inject;
 
 
 /**
@@ -20,26 +20,21 @@ import javax.ejb.EJB;
  */
 @Named(value = "maritalStatusController")
 @SessionScoped
-public class MaritalStatusController implements Serializable {
+public class MaritalStatusController extends AbstractController<MaritalStatus> implements Serializable{
     
-    @EJB
+    @Inject
     private MaritalStatusFacade maritalStatusFacade;
-   
-    private MaritalStatus maritalStatus = new MaritalStatus();
-    private MaritalStatus selectedMaritalStatus;
-    private List<MaritalStatus> selectedMaritalStatuses;
-    
-    private Integer maritalStatusId; 
-    private List<MaritalStatus> maritalStatuses;
-    
     
 
     /**
      * Creates a new instance of MaritalStatusController
      */
     public MaritalStatusController() {
+        super(MaritalStatus.class);
     }
-    
-    
-    
+
+    @Override
+    protected AbstractFacade<MaritalStatus> getFacade() {
+        return maritalStatusFacade;
+    }
 }

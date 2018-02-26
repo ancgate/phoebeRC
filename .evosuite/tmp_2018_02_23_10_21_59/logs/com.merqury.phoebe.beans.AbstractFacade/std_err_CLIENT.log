@@ -1,0 +1,227 @@
+[MASTER] 10:22:14.191 [pool-2-thread-1] ERROR ConcreteClassAnalyzer - Problem for com.merqury.phoebe.beans.AbstractFacade. Class not found: org.eclipse.persistence.platform.database.oracle.dcn.OracleChangeNotificationListener
+java.lang.ClassNotFoundException: Class not found: oracle/jdbc/driver/OracleConnection: java.lang.NullPointerException: Class not found oracle/jdbc/driver/OracleConnection
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_151]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_151]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:126) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:876) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:787) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:983) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:117) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:131) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-master-1.0.5.jar:1.0.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+Caused by: java.lang.RuntimeException: Class not found: oracle/jdbc/driver/OracleConnection: java.lang.NullPointerException: Class not found oracle/jdbc/driver/OracleConnection
+	at org.evosuite.runtime.util.ComputeClassWriter.getCommonSuperClass(ComputeClassWriter.java:58) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.ClassWriter.a(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.Frame.a(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.Frame.a(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.MethodWriter.visitMaxs(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitMaxs(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitMaxs(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitMaxs(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.instrumentation.LoopCounterMethodAdapter.visitMaxs(LoopCounterMethodAdapter.java:48) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.tree.MethodNode.accept(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.commons.JSRInlinerAdapter.visitEnd(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitEnd(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitEnd(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitEnd(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.ClassReader.b(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.ClassReader.accept(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.ClassReader.accept(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.instrumentation.BytecodeInstrumentation.transformBytes(BytecodeInstrumentation.java:282) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.getTransformedBytes(InstrumentingClassLoader.java:175) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:192) ~[evosuite-master-1.0.5.jar:1.0.5]
+	... 20 common frames omitted
+Caused by: java.lang.NullPointerException: Class not found oracle/jdbc/driver/OracleConnection
+	at org.evosuite.runtime.util.ComputeClassWriter.typeInfo(ComputeClassWriter.java:186) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.util.ComputeClassWriter.getCommonSuperClass(ComputeClassWriter.java:55) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	... 39 common frames omitted
+[MASTER] 10:22:14.191 [pool-2-thread-1] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 10:22:18.837 [pool-2-thread-1] ERROR ConcreteClassAnalyzer - Problem for com.merqury.phoebe.beans.AbstractFacade. Class not found: org.eclipse.persistence.platform.database.oracle.ucp.GridLinkDataPartitioningCallback
+java.lang.ClassNotFoundException: org/eclipse/persistence/platform/database/oracle/ucp/UCPDataPartitioningCallback
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_151]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_151]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:126) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:876) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:787) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:983) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:117) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:131) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-master-1.0.5.jar:1.0.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/persistence/platform/database/oracle/ucp/UCPDataPartitioningCallback
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642) ~[na:1.8.0_151]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:194) ~[evosuite-master-1.0.5.jar:1.0.5]
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: oracle/ucp/jdbc/oracle/DataBasedConnectionAffinityCallback
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-master-1.0.5.jar:1.0.5]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: oracle/ucp/jdbc/oracle/DataBasedConnectionAffinityCallback
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642) ~[na:1.8.0_151]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:194) ~[evosuite-master-1.0.5.jar:1.0.5]
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'oracle/ucp/jdbc/oracle/DataBasedConnectionAffinityCallback.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-master-1.0.5.jar:1.0.5]
+	... 29 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'oracle/ucp/jdbc/oracle/DataBasedConnectionAffinityCallback.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-master-1.0.5.jar:1.0.5]
+	... 30 common frames omitted
+[MASTER] 10:22:18.837 [pool-2-thread-1] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 10:22:18.839 [pool-2-thread-1] ERROR ConcreteClassAnalyzer - Problem for com.merqury.phoebe.beans.AbstractFacade. Class not found: org.eclipse.persistence.platform.database.oracle.ucp.UCPDataPartitioningCallback
+java.lang.ClassNotFoundException: oracle/ucp/jdbc/oracle/DataBasedConnectionAffinityCallback
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_151]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_151]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:126) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:876) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:787) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:983) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:117) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:131) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-master-1.0.5.jar:1.0.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+Caused by: java.lang.NoClassDefFoundError: oracle/ucp/jdbc/oracle/DataBasedConnectionAffinityCallback
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763) ~[na:1.8.0_151]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642) ~[na:1.8.0_151]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:194) ~[evosuite-master-1.0.5.jar:1.0.5]
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'oracle/ucp/jdbc/oracle/DataBasedConnectionAffinityCallback.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-master-1.0.5.jar:1.0.5]
+	... 24 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Class 'oracle/ucp/jdbc/oracle/DataBasedConnectionAffinityCallback.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-master-1.0.5.jar:1.0.5]
+	... 25 common frames omitted
+[MASTER] 10:22:18.840 [pool-2-thread-1] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 10:22:22.887 [pool-2-thread-1] ERROR ConcreteClassAnalyzer - Problem for com.merqury.phoebe.beans.AbstractFacade. Class not found: org.eclipse.persistence.internal.sessions.coordination.jms.JMSTopicRemoteConnection
+java.lang.ClassNotFoundException: Class not found: javax/jms/BytesMessage: java.lang.NullPointerException: Class not found javax/jms/BytesMessage
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_151]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_151]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:126) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:876) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:787) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:983) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:117) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:131) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-master-1.0.5.jar:1.0.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+Caused by: java.lang.RuntimeException: Class not found: javax/jms/BytesMessage: java.lang.NullPointerException: Class not found javax/jms/BytesMessage
+	at org.evosuite.runtime.util.ComputeClassWriter.getCommonSuperClass(ComputeClassWriter.java:52) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.ClassWriter.a(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.Frame.a(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.Frame.a(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.MethodWriter.visitMaxs(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitMaxs(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitMaxs(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitMaxs(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.instrumentation.LoopCounterMethodAdapter.visitMaxs(LoopCounterMethodAdapter.java:48) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.tree.MethodNode.accept(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.commons.JSRInlinerAdapter.visitEnd(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitEnd(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitEnd(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.MethodVisitor.visitEnd(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.ClassReader.b(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.ClassReader.accept(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.objectweb.asm.ClassReader.accept(Unknown Source) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.instrumentation.BytecodeInstrumentation.transformBytes(BytecodeInstrumentation.java:282) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.getTransformedBytes(InstrumentingClassLoader.java:175) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:192) ~[evosuite-master-1.0.5.jar:1.0.5]
+	... 20 common frames omitted
+Caused by: java.lang.NullPointerException: Class not found javax/jms/BytesMessage
+	at org.evosuite.runtime.util.ComputeClassWriter.typeInfo(ComputeClassWriter.java:186) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.util.ComputeClassWriter.getCommonSuperClass(ComputeClassWriter.java:49) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	... 39 common frames omitted
+[MASTER] 10:22:22.887 [pool-2-thread-1] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 10:22:44.829 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 10:22:44.829 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 10:22:44.829 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.eclipse.persistence.internal.jpa.querydef.BasicCollectionJoinImpl<Z, E> : Type points to itself
+[MASTER] 10:22:44.830 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.eclipse.persistence.internal.jpa.querydef.BasicListJoinImpl<Z, E> : Type points to itself
+[MASTER] 10:22:44.830 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.eclipse.persistence.internal.jpa.querydef.BasicMapJoinImpl<Z, K, E> : Type points to itself
+[MASTER] 10:22:44.830 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.eclipse.persistence.internal.jpa.querydef.BasicSetJoinImpl<Z, E> : Type points to itself
+[MASTER] 10:22:44.831 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.eclipse.persistence.internal.jpa.querydef.CollectionJoinImpl<Z, X> : Type points to itself
+[MASTER] 10:22:44.832 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.eclipse.persistence.internal.jpa.querydef.FromImpl<Z, X> : Type points to itself
+[MASTER] 10:22:44.833 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.eclipse.persistence.internal.jpa.querydef.JoinImpl<Z, X> : Type points to itself
+[MASTER] 10:22:44.834 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.eclipse.persistence.internal.jpa.querydef.ListJoinImpl<Z, X> : Type points to itself
+[MASTER] 10:22:44.834 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.eclipse.persistence.internal.jpa.querydef.MapJoinImpl<Z, K, V> : Type points to itself
+[MASTER] 10:22:44.909 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.eclipse.persistence.internal.jpa.querydef.PathImpl<X> : Type points to itself
+[MASTER] 10:22:44.910 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.eclipse.persistence.internal.jpa.querydef.RootImpl<X> : Type points to itself
+[MASTER] 10:22:44.911 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.eclipse.persistence.internal.jpa.querydef.SetJoinImpl<Z, X> : Type points to itself
+[MASTER] 10:22:44.932 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.eclipse.persistence.core.queries.CoreAttributeGroup<ATTRIBUTE_ITEM> : Type points to itself
+[MASTER] 10:22:44.964 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 10:22:45.041 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.lang.reflect.Constructor<T> : Type points to itself
+[MASTER] 10:22:45.047 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.eclipse.persistence.core.queries.CoreAttributeItem<ATTRIBUTE_GROUP> : Type points to itself
+[MASTER] 10:27:48.808 [pool-2-thread-1] ERROR ClientNodeImpl - Error when generating tests for: com.merqury.phoebe.beans.AbstractFacade with seed 1519399322257. Configuration id : default
+java.lang.IllegalStateException: Conflicting persistence unit definitions for name 'EvoSuiteDB': file:/Users/jeffersonbienaime/.m2/repository/org/evosuite/evosuite-master/1.0.5/evosuite-master-1.0.5.jar, file:/Users/jeffersonbienaime/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.0.5/evosuite-standalone-runtime-1.0.5.jar
+	at org.evosuite.shaded.org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.preparePersistenceUnitInfos(DefaultPersistenceUnitManager.java:472) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.afterPropertiesSet(DefaultPersistenceUnitManager.java:426) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:325) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.shaded.org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.javaee.javax.persistence.EvoEntityManagerFactory.createEMFWithSpring(EvoEntityManagerFactory.java:96) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.javaee.javax.persistence.EvoEntityManagerFactory.<init>(EvoEntityManagerFactory.java:50) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.javaee.db.DBManager.initDB(DBManager.java:147) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.runtime.Runtime.resetRuntime(Runtime.java:115) ~[evosuite-standalone-runtime-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:303) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:277) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:264) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.ConstantInliner.inline(ConstantInliner.java:69) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.ConstantInliner.inline(ConstantInliner.java:85) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.testcase.ConstantInliner.inline(ConstantInliner.java:99) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.postProcessTests(TestSuiteGenerator.java:411) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:238) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) ~[evosuite-master-1.0.5.jar:1.0.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]

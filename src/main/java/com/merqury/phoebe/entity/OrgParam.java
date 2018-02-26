@@ -23,14 +23,14 @@ import javax.validation.constraints.Size;
  * @author jeffersonbienaime
  */
 @Entity
-public class OrgParam implements Serializable {
+public class OrgParam implements Identifiable, Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)
     @Column(name = "idOrgParam", nullable = false)
-    private Long idOrgParam;
+    private Integer idOrgParam;
     @Basic(optional = false)
     @NotNull
     @Size(min = 1, max = 45)
@@ -62,7 +62,7 @@ public class OrgParam implements Serializable {
     @Column(name = "modifiedBy", nullable = false, length = 255)
     private String modifiedBy;
 
-    public OrgParam(Long idOrgParam, String attributeName, String attributeValue, Date dateCreated, String createdBy, Date dateModified, String modifiedBy) {
+    public OrgParam(Integer idOrgParam, String attributeName, String attributeValue, Date dateCreated, String createdBy, Date dateModified, String modifiedBy) {
         this.idOrgParam = idOrgParam;
         this.attributeName = attributeName;
         this.attributeValue = attributeValue;
@@ -72,11 +72,12 @@ public class OrgParam implements Serializable {
         this.modifiedBy = modifiedBy;
     }
 
-    public Long getIdOrgParam() {
+    @Override
+    public Integer getIdentifier() {
         return idOrgParam;
     }
 
-    public void setIdOrgParam(Long idOrgParam) {
+    public void setIdOrgParam(Integer idOrgParam) {
         this.idOrgParam = idOrgParam;
     }
 

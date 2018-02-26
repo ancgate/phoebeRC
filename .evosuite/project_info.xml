@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Project>
-    <totalNumberOfTestableClasses>26</totalNumberOfTestableClasses>
+    <totalNumberOfTestableClasses>28</totalNumberOfTestableClasses>
     <cut>
         <fullNameOfTargetClass>com.merqury.phoebe.beans.OrgParamFacade</fullNameOfTargetClass>
         <fullNameOfTestSuite>com.merqury.phoebe.beans.OrgParamFacade_ESTest</fullNameOfTestSuite>
@@ -69,6 +69,17 @@
             <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.OrgParamFacade/std_out_CLIENT.log</std_out_CLIENT>
             <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.OrgParamFacade/std_err_MASTER.log</std_err_MASTER>
             <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.OrgParamFacade/std_out_MASTER.log</std_out_MASTER>
+        </generation>
+        <generation>
+            <id>6</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.OrgParamFacade/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.OrgParamFacade/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.OrgParamFacade/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.OrgParamFacade/std_out_MASTER.log</std_out_MASTER>
         </generation>
     </cut>
     <cut>
@@ -140,6 +151,17 @@
             <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.PrayerRequestNatureFacade/std_err_MASTER.log</std_err_MASTER>
             <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.PrayerRequestNatureFacade/std_out_MASTER.log</std_out_MASTER>
         </generation>
+        <generation>
+            <id>6</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.PrayerRequestNatureFacade/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.PrayerRequestNatureFacade/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.PrayerRequestNatureFacade/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.PrayerRequestNatureFacade/std_out_MASTER.log</std_out_MASTER>
+        </generation>
     </cut>
     <cut>
         <fullNameOfTargetClass>com.merqury.phoebe.beans.NoteTypeFacade</fullNameOfTargetClass>
@@ -209,6 +231,17 @@
             <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.NoteTypeFacade/std_out_CLIENT.log</std_out_CLIENT>
             <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.NoteTypeFacade/std_err_MASTER.log</std_err_MASTER>
             <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.NoteTypeFacade/std_out_MASTER.log</std_out_MASTER>
+        </generation>
+        <generation>
+            <id>6</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.NoteTypeFacade/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.NoteTypeFacade/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.NoteTypeFacade/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.NoteTypeFacade/std_out_MASTER.log</std_out_MASTER>
         </generation>
     </cut>
     <cut>
@@ -280,6 +313,17 @@
             <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.PersonFacade/std_err_MASTER.log</std_err_MASTER>
             <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.PersonFacade/std_out_MASTER.log</std_out_MASTER>
         </generation>
+        <generation>
+            <id>6</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.PersonFacade/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.PersonFacade/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.PersonFacade/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.PersonFacade/std_out_MASTER.log</std_out_MASTER>
+        </generation>
     </cut>
     <cut>
         <fullNameOfTargetClass>com.merqury.phoebe.beans.UsersFacade</fullNameOfTargetClass>
@@ -349,6 +393,17 @@
             <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.UsersFacade/std_out_CLIENT.log</std_out_CLIENT>
             <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.UsersFacade/std_err_MASTER.log</std_err_MASTER>
             <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.UsersFacade/std_out_MASTER.log</std_out_MASTER>
+        </generation>
+        <generation>
+            <id>6</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>204</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.UsersFacade/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.UsersFacade/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.UsersFacade/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.UsersFacade/std_out_MASTER.log</std_out_MASTER>
         </generation>
     </cut>
     <cut>
@@ -420,6 +475,17 @@
             <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.AbstractFacade/std_err_MASTER.log</std_err_MASTER>
             <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.AbstractFacade/std_out_MASTER.log</std_out_MASTER>
         </generation>
+        <generation>
+            <id>6</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>588</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.AbstractFacade/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.AbstractFacade/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.AbstractFacade/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.AbstractFacade/std_out_MASTER.log</std_out_MASTER>
+        </generation>
     </cut>
     <cut>
         <fullNameOfTargetClass>com.merqury.phoebe.beans.NoteFacade</fullNameOfTargetClass>
@@ -490,6 +556,17 @@
             <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.NoteFacade/std_err_MASTER.log</std_err_MASTER>
             <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.NoteFacade/std_out_MASTER.log</std_out_MASTER>
         </generation>
+        <generation>
+            <id>6</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.NoteFacade/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.NoteFacade/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.NoteFacade/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.NoteFacade/std_out_MASTER.log</std_out_MASTER>
+        </generation>
     </cut>
     <cut>
         <fullNameOfTargetClass>com.merqury.phoebe.beans.MaritalStatusFacade</fullNameOfTargetClass>
@@ -559,6 +636,17 @@
             <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.MaritalStatusFacade/std_out_CLIENT.log</std_out_CLIENT>
             <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.MaritalStatusFacade/std_err_MASTER.log</std_err_MASTER>
             <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.MaritalStatusFacade/std_out_MASTER.log</std_out_MASTER>
+        </generation>
+        <generation>
+            <id>6</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.MaritalStatusFacade/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.MaritalStatusFacade/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.MaritalStatusFacade/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.MaritalStatusFacade/std_out_MASTER.log</std_out_MASTER>
         </generation>
     </cut>
     <cut>
@@ -676,6 +764,63 @@
                 </coverage>
             </suite>
         </generation>
+        <generation>
+            <id>6</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>300</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.filter.AuthorizationFilter/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.filter.AuthorizationFilter/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.filter.AuthorizationFilter/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.filter.AuthorizationFilter/std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/tests/com/merqury/phoebe/filter/AuthorizationFilter_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>6</numberOfTests>
+                <totalNumberOfStatements>44</totalNumberOfStatements>
+                <totalEffortInSeconds>176</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.89</coverageValue>
+                    <coverageBitString>111111111111100111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111111111111</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
     </cut>
     <cut>
         <fullNameOfTargetClass>com.merqury.phoebe.beans.PrayerRequestFacade</fullNameOfTargetClass>
@@ -745,6 +890,17 @@
             <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.PrayerRequestFacade/std_out_CLIENT.log</std_out_CLIENT>
             <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.PrayerRequestFacade/std_err_MASTER.log</std_err_MASTER>
             <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.PrayerRequestFacade/std_out_MASTER.log</std_out_MASTER>
+        </generation>
+        <generation>
+            <id>6</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.PrayerRequestFacade/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.PrayerRequestFacade/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.PrayerRequestFacade/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.PrayerRequestFacade/std_out_MASTER.log</std_out_MASTER>
         </generation>
     </cut>
     <cut>
@@ -816,6 +972,17 @@
             <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.RolesFacade/std_err_MASTER.log</std_err_MASTER>
             <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.RolesFacade/std_out_MASTER.log</std_out_MASTER>
         </generation>
+        <generation>
+            <id>6</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.RolesFacade/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.RolesFacade/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.RolesFacade/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.RolesFacade/std_out_MASTER.log</std_out_MASTER>
+        </generation>
     </cut>
     <cut>
         <fullNameOfTargetClass>com.merqury.phoebe.beans.PermissionsFacade</fullNameOfTargetClass>
@@ -885,6 +1052,17 @@
             <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.PermissionsFacade/std_out_CLIENT.log</std_out_CLIENT>
             <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.PermissionsFacade/std_err_MASTER.log</std_err_MASTER>
             <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.PermissionsFacade/std_out_MASTER.log</std_out_MASTER>
+        </generation>
+        <generation>
+            <id>6</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.PermissionsFacade/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.PermissionsFacade/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.PermissionsFacade/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.PermissionsFacade/std_out_MASTER.log</std_out_MASTER>
         </generation>
     </cut>
     <cut>
@@ -956,6 +1134,17 @@
             <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.UserLoginHistoryFacade/std_err_MASTER.log</std_err_MASTER>
             <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.beans.UserLoginHistoryFacade/std_out_MASTER.log</std_out_MASTER>
         </generation>
+        <generation>
+            <id>6</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.UserLoginHistoryFacade/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.UserLoginHistoryFacade/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.UserLoginHistoryFacade/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.beans.UserLoginHistoryFacade/std_out_MASTER.log</std_out_MASTER>
+        </generation>
     </cut>
     <cut>
         <fullNameOfTargetClass>com.merqury.phoebe.controller.UsersController</fullNameOfTargetClass>
@@ -993,6 +1182,63 @@
             <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.controller.UsersController/std_err_MASTER.log</std_err_MASTER>
             <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.controller.UsersController/std_out_MASTER.log</std_out_MASTER>
         </generation>
+        <generation>
+            <id>3</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.UsersController/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.UsersController/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.UsersController/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.UsersController/std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/tests/com/merqury/phoebe/controller/UsersController_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>19</numberOfTests>
+                <totalNumberOfStatements>352</totalNumberOfStatements>
+                <totalEffortInSeconds>42</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.88</coverageValue>
+                    <coverageBitString>1111111111111111111110010011111111111111111110011</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111111111111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.8</coverageValue>
+                    <coverageBitString>11011</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>0.7</coverageValue>
+                    <coverageBitString>01001111111010011111111111111111111111010011010000010</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111111111111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>0.86</coverageValue>
+                    <coverageBitString>1111111111100111111101</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111111111111111111111</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
     </cut>
     <cut>
         <fullNameOfTargetClass>com.merqury.phoebe.controller.LoginController</fullNameOfTargetClass>
@@ -1029,6 +1275,17 @@
             <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.controller.LoginController/std_out_CLIENT.log</std_out_CLIENT>
             <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.controller.LoginController/std_err_MASTER.log</std_err_MASTER>
             <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.controller.LoginController/std_out_MASTER.log</std_out_MASTER>
+        </generation>
+        <generation>
+            <id>3</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>108</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.LoginController/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.LoginController/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.LoginController/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.LoginController/std_out_MASTER.log</std_out_MASTER>
         </generation>
     </cut>
     <cut>
@@ -1113,6 +1370,17 @@
                 </coverage>
             </suite>
         </generation>
+        <generation>
+            <id>3</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.RolesController/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.RolesController/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.RolesController/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.RolesController/std_out_MASTER.log</std_out_MASTER>
+        </generation>
     </cut>
     <cut>
         <fullNameOfTargetClass>com.merqury.phoebe.controller.SessionController</fullNameOfTargetClass>
@@ -1154,6 +1422,63 @@
                 <numberOfTests>7</numberOfTests>
                 <totalNumberOfStatements>7</totalNumberOfStatements>
                 <totalEffortInSeconds>236</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.33</coverageValue>
+                    <coverageBitString>111011011100000000000000001000110</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>0.45</coverageValue>
+                    <coverageBitString>11111000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>000000000000000000000000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>0000000000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>0.14</coverageValue>
+                    <coverageBitString>1000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>0.45</coverageValue>
+                    <coverageBitString>11111000000</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+        <generation>
+            <id>3</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>204</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.SessionController/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.SessionController/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.SessionController/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.SessionController/std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/tests/com/merqury/phoebe/controller/SessionController_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>7</numberOfTests>
+                <totalNumberOfStatements>7</totalNumberOfStatements>
+                <totalEffortInSeconds>109</totalEffortInSeconds>
                 <coverage>
                     <criterion>LineCoverage</criterion>
                     <coverageValue>0.33</coverageValue>
@@ -1279,6 +1604,63 @@
                 </coverage>
             </suite>
         </generation>
+        <generation>
+            <id>3</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.util.LogTrace/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.util.LogTrace/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.util.LogTrace/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.util.LogTrace/std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/tests/com/merqury/phoebe/util/LogTrace_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>2</numberOfTests>
+                <totalNumberOfStatements>2</totalNumberOfStatements>
+                <totalEffortInSeconds>34</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.43</coverageValue>
+                    <coverageBitString>11100000001101</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.07</coverageValue>
+                    <coverageBitString>111000000000000000000000000000000000000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
     </cut>
     <cut>
         <fullNameOfTargetClass>com.merqury.phoebe.controller.PrayerRequestNatureController</fullNameOfTargetClass>
@@ -1306,6 +1688,63 @@
             <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.controller.PrayerRequestNatureController/std_out_MASTER.log</std_out_MASTER>
             <suite>
                 <fullPathOfTestSuite>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/tests/com/merqury/phoebe/controller/PrayerRequestNatureController_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>1</numberOfTests>
+                <totalNumberOfStatements>1</totalNumberOfStatements>
+                <totalEffortInSeconds>6</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+        <generation>
+            <id>2</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.PrayerRequestNatureController/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.PrayerRequestNatureController/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.PrayerRequestNatureController/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.PrayerRequestNatureController/std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/tests/com/merqury/phoebe/controller/PrayerRequestNatureController_ESTest.java</fullPathOfTestSuite>
                 <numberOfTests>1</numberOfTests>
                 <totalNumberOfStatements>1</totalNumberOfStatements>
                 <totalEffortInSeconds>6</totalEffortInSeconds>
@@ -1423,6 +1862,63 @@
                 </coverage>
             </suite>
         </generation>
+        <generation>
+            <id>2</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.OrgParamController/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.OrgParamController/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.OrgParamController/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.OrgParamController/std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/tests/com/merqury/phoebe/controller/OrgParamController_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>1</numberOfTests>
+                <totalNumberOfStatements>1</totalNumberOfStatements>
+                <totalEffortInSeconds>35</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>0.5</coverageValue>
+                    <coverageBitString>10</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>00</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>0.5</coverageValue>
+                    <coverageBitString>10</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>00</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>00</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
     </cut>
     <cut>
         <fullNameOfTargetClass>com.merqury.phoebe.controller.PersonController</fullNameOfTargetClass>
@@ -1448,6 +1944,63 @@
             <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.controller.PersonController/std_out_CLIENT.log</std_out_CLIENT>
             <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.controller.PersonController/std_err_MASTER.log</std_err_MASTER>
             <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.controller.PersonController/std_out_MASTER.log</std_out_MASTER>
+        </generation>
+        <generation>
+            <id>2</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.PersonController/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.PersonController/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.PersonController/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.PersonController/std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/tests/com/merqury/phoebe/controller/PersonController_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>1</numberOfTests>
+                <totalNumberOfStatements>1</totalNumberOfStatements>
+                <totalEffortInSeconds>7</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+            </suite>
         </generation>
     </cut>
     <cut>
@@ -1476,6 +2029,63 @@
             <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.controller.UserLoginHistoryController/std_out_MASTER.log</std_out_MASTER>
             <suite>
                 <fullPathOfTestSuite>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/tests/com/merqury/phoebe/controller/UserLoginHistoryController_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>1</numberOfTests>
+                <totalNumberOfStatements>1</totalNumberOfStatements>
+                <totalEffortInSeconds>5</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+        <generation>
+            <id>2</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.UserLoginHistoryController/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.UserLoginHistoryController/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.UserLoginHistoryController/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.UserLoginHistoryController/std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/tests/com/merqury/phoebe/controller/UserLoginHistoryController_ESTest.java</fullPathOfTestSuite>
                 <numberOfTests>1</numberOfTests>
                 <totalNumberOfStatements>1</totalNumberOfStatements>
                 <totalEffortInSeconds>5</totalEffortInSeconds>
@@ -1593,6 +2203,63 @@
                 </coverage>
             </suite>
         </generation>
+        <generation>
+            <id>2</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.NoteTypeController/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.NoteTypeController/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.NoteTypeController/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.NoteTypeController/std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/tests/com/merqury/phoebe/controller/NoteTypeController_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>1</numberOfTests>
+                <totalNumberOfStatements>1</totalNumberOfStatements>
+                <totalEffortInSeconds>35</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>0.5</coverageValue>
+                    <coverageBitString>01</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>00</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>0.5</coverageValue>
+                    <coverageBitString>10</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>00</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>00</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
     </cut>
     <cut>
         <fullNameOfTargetClass>com.merqury.phoebe.controller.PrayerRequestController</fullNameOfTargetClass>
@@ -1620,6 +2287,63 @@
             <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/logs/com.merqury.phoebe.controller.PrayerRequestController/std_out_MASTER.log</std_out_MASTER>
             <suite>
                 <fullPathOfTestSuite>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_21_14_32_35/tests/com/merqury/phoebe/controller/PrayerRequestController_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>1</numberOfTests>
+                <totalNumberOfStatements>1</totalNumberOfStatements>
+                <totalEffortInSeconds>5</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+        <generation>
+            <id>2</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.PrayerRequestController/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.PrayerRequestController/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.PrayerRequestController/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.PrayerRequestController/std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/tests/com/merqury/phoebe/controller/PrayerRequestController_ESTest.java</fullPathOfTestSuite>
                 <numberOfTests>1</numberOfTests>
                 <totalNumberOfStatements>1</totalNumberOfStatements>
                 <totalEffortInSeconds>5</totalEffortInSeconds>
@@ -1737,6 +2461,17 @@
                 </coverage>
             </suite>
         </generation>
+        <generation>
+            <id>2</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.NoteController/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.NoteController/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.NoteController/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.NoteController/std_out_MASTER.log</std_out_MASTER>
+        </generation>
     </cut>
     <cut>
         <fullNameOfTargetClass>com.merqury.phoebe.controller.MaritalStatusController</fullNameOfTargetClass>
@@ -1806,6 +2541,185 @@
                     <criterion>CBranchCoverage</criterion>
                     <coverageValue>1.0</coverageValue>
                     <coverageBitString>1</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+        <generation>
+            <id>2</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.MaritalStatusController/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.MaritalStatusController/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.MaritalStatusController/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.MaritalStatusController/std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/tests/com/merqury/phoebe/controller/MaritalStatusController_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>1</numberOfTests>
+                <totalNumberOfStatements>1</totalNumberOfStatements>
+                <totalEffortInSeconds>36</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>0.5</coverageValue>
+                    <coverageBitString>01</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>00</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>0.5</coverageValue>
+                    <coverageBitString>10</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>00</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>00</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+    </cut>
+    <cut>
+        <fullNameOfTargetClass>com.merqury.phoebe.controller.AbstractController</fullNameOfTargetClass>
+        <fullNameOfTestSuite>com.merqury.phoebe.controller.AbstractController_ESTest</fullNameOfTestSuite>
+        <generation>
+            <id>0</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.AbstractController/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.AbstractController/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.AbstractController/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.controller.AbstractController/std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/tests/com/merqury/phoebe/controller/AbstractController_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>1</numberOfTests>
+                <totalNumberOfStatements>5</totalNumberOfStatements>
+                <totalEffortInSeconds>36</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.14</coverageValue>
+                    <coverageBitString>110000000000100000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>0.29</coverageValue>
+                    <coverageBitString>0001100</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>00000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>0.29</coverageValue>
+                    <coverageBitString>0010010</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+    </cut>
+    <cut>
+        <fullNameOfTargetClass>com.merqury.phoebe.util.JsfUtil</fullNameOfTargetClass>
+        <fullNameOfTestSuite>com.merqury.phoebe.util.JsfUtil_ESTest</fullNameOfTestSuite>
+        <generation>
+            <id>0</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>636</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.util.JsfUtil/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.util.JsfUtil/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.util.JsfUtil/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/logs/com.merqury.phoebe.util.JsfUtil/std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>/Users/jeffersonbienaime/Downloads/Developer Corner/MerQury Projects/JavaFXDesktopAPP/Herudi/phoebe/.evosuite/tmp_2018_02_23_10_21_59/tests/com/merqury/phoebe/util/JsfUtil_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>16</numberOfTests>
+                <totalNumberOfStatements>27</totalNumberOfStatements>
+                <totalEffortInSeconds>338</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.56</coverageValue>
+                    <coverageBitString>111110110011011100110110000000011111110000011</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>0.55</coverageValue>
+                    <coverageBitString>11111111111111110000000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.53</coverageValue>
+                    <coverageBitString>111101111111111100000000100000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>0.33</coverageValue>
+                    <coverageBitString>000111000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>0.4</coverageValue>
+                    <coverageBitString>1001000110</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>0.55</coverageValue>
+                    <coverageBitString>11111111111111110000000000000</coverageBitString>
                 </coverage>
             </suite>
         </generation>

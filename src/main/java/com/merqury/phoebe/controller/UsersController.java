@@ -5,10 +5,10 @@
  */
 package com.merqury.phoebe.controller;
 
+import com.merqury.phoebe.beans.RolesFacade;
+import com.merqury.phoebe.beans.UsersFacade;
 import com.merqury.phoebe.entity.Roles;
 import com.merqury.phoebe.entity.Users;
-import com.merqury.phoebe.facade.RolesFacadeLocal;
-import com.merqury.phoebe.facade.UsersFacadeLocal;
 import javax.inject.Named;
 import javax.enterprise.context.SessionScoped;
 import java.io.Serializable;
@@ -17,9 +17,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 import javax.annotation.PostConstruct;
-import javax.ejb.EJB;
 import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
+import javax.inject.Inject;
 import org.primefaces.event.SelectEvent;
 import org.primefaces.event.UnselectEvent;
 
@@ -31,8 +31,8 @@ import org.primefaces.event.UnselectEvent;
 @SessionScoped
 public class UsersController implements Serializable {
 
-    @EJB
-    UsersFacadeLocal userFacadeLocal;
+    @Inject
+    UsersFacade userFacade;
     private Users user = new Users();
     private Users selectedUser;
     private List<Users> selectedUsers;
@@ -43,15 +43,15 @@ public class UsersController implements Serializable {
 
     private Integer[] selectedRoles;
     private List<Roles> roles;
-    @EJB
-    RolesFacadeLocal rolesFacadeLocal;
+    @Inject
+    RolesFacade rolesFacade;
 
     @PostConstruct
     public void init() {
         roles = new ArrayList<>();
-        roles.addAll(rolesFacadeLocal.findAll());
+        roles.addAll(rolesFacade.findAll());
         usernames = new ArrayList<>();
-        usernames.addAll(userFacadeLocal.findAll());
+        usernames.addAll(userFacade.findAll());
     }
 
     /**
@@ -117,13 +117,13 @@ public class UsersController implements Serializable {
     }
 
     public String insert() {
-        this.userFacadeLocal.create(user);
+        this.userFacade.create(user);
         this.user = new Users();
         return "index";
     }
 
     public void delete(Users user) {
-        this.userFacadeLocal.remove(user);
+        this.userFacade.remove(user);
     }
 
     public String update(Users user) {
@@ -133,12 +133,11 @@ public class UsersController implements Serializable {
 
     public String update() {
         System.out.println(selectedRoles);
-        user = userFacadeLocal.find(userId);
-        List<Roles> rolesAssigned = Arrays.stream(selectedRoles).map(
-                rolesFacadeLocal::find)
+        user = userFacade.find(userId);
+        List<Roles> rolesAssigned = Arrays.stream(selectedRoles).map(rolesFacade::find)
                 .collect(Collectors.toList());
         user.setRolesCollection(rolesAssigned);
-        this.userFacadeLocal.edit(user);
+        this.userFacade.edit(user);
         return "userList";
     }
 

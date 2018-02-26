@@ -40,7 +40,7 @@ import javax.xml.bind.annotation.XmlRootElement;
     @NamedQuery(name = "Note.findByCreatedBy", query = "SELECT n FROM Note n WHERE n.createdBy = :createdBy"),
     @NamedQuery(name = "Note.findByDateModified", query = "SELECT n FROM Note n WHERE n.dateModified = :dateModified"),
     @NamedQuery(name = "Note.findByModifiedBy", query = "SELECT n FROM Note n WHERE n.modifiedBy = :modifiedBy")})
-public class Note implements Serializable {
+public class Note implements Identifiable, Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
@@ -102,7 +102,8 @@ public class Note implements Serializable {
         this.modifiedBy = modifiedBy;
     }
 
-    public Integer getIdNote() {
+    @Override
+    public Integer getIdentifier() {
         return idNote;
     }
 

@@ -5,7 +5,6 @@
  */
 package com.merqury.phoebe.beans;
 
-import com.merqury.phoebe.facade.PermissionsFacadeLocal;
 import com.merqury.phoebe.entity.Permissions;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
@@ -16,9 +15,9 @@ import javax.persistence.PersistenceContext;
  * @author jeffersonbienaime
  */
 @Stateless
-public class PermissionsFacade extends AbstractFacade<Permissions> implements PermissionsFacadeLocal {
+public class PermissionsFacade extends AbstractFacade<Permissions> {
 
-    @PersistenceContext(unitName = "com.merqury_phoebe_war_1.0-SNAPSHOTPU")
+    @PersistenceContext
     private EntityManager em;
 
     @Override
@@ -29,5 +28,5 @@ public class PermissionsFacade extends AbstractFacade<Permissions> implements Pe
     public PermissionsFacade() {
         super(Permissions.class);
     }
-    
+
 }

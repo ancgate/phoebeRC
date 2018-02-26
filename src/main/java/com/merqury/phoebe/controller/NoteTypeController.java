@@ -5,14 +5,13 @@
  */
 package com.merqury.phoebe.controller;
 
+import com.merqury.phoebe.beans.AbstractFacade;
 import com.merqury.phoebe.beans.NoteTypeFacade;
 import com.merqury.phoebe.entity.NoteType;
 import java.io.Serializable;
-import java.util.List;
-import javax.ejb.EJB;
 import javax.inject.Named;
-import javax.enterprise.context.Dependent;
 import javax.enterprise.context.SessionScoped;
+import javax.inject.Inject;
 
 /**
  *
@@ -20,24 +19,21 @@ import javax.enterprise.context.SessionScoped;
  */
 @Named(value = "noteTypeController")
 @SessionScoped
-public class NoteTypeController implements Serializable {
+public class NoteTypeController extends AbstractController<NoteType> implements Serializable {
 
-        @EJB
+    @Inject
     private NoteTypeFacade noteTypeFacade;
    
-    private NoteType noteType = new NoteType();
-    private NoteType selectednoteType;
-    private List<NoteType> selectednoteTypes;
-    
-    private Integer noteTypeId; 
-    private List<NoteType> noteTypes;
-    
-    
-    
     /**
      * Creates a new instance of NoteTypeTypeController
      */
     public NoteTypeController() {
+        super(NoteType.class);
+    }
+
+    @Override
+    protected AbstractFacade<NoteType> getFacade() {
+        return noteTypeFacade;
     }
     
 }

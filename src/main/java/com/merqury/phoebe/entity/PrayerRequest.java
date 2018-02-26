@@ -40,14 +40,14 @@ import javax.xml.bind.annotation.XmlRootElement;
     @NamedQuery(name = "PrayerRequest.findByDateCreated", query = "SELECT p FROM PrayerRequest p WHERE p.dateCreated = :dateCreated"),
     @NamedQuery(name = "PrayerRequest.findByModifiedBy", query = "SELECT p FROM PrayerRequest p WHERE p.modifiedBy = :modifiedBy"),
     @NamedQuery(name = "PrayerRequest.findByDateModified", query = "SELECT p FROM PrayerRequest p WHERE p.dateModified = :dateModified")})
-public class PrayerRequest implements Serializable {
+public class PrayerRequest implements Identifiable, Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)
     @Column(name = "idPrayerRequest", nullable = false)
-    private Long idPrayerRequest;
+    private Integer idPrayerRequest;
     @Size(max = 255)
     @Column(name = "prayerRequestDescription", length = 255)
     private String prayerRequestDescription;
@@ -78,20 +78,21 @@ public class PrayerRequest implements Serializable {
     public PrayerRequest() {
     }
 
-    public PrayerRequest(Long idPrayerRequest) {
+    public PrayerRequest(Integer idPrayerRequest) {
         this.idPrayerRequest = idPrayerRequest;
     }
 
-    public PrayerRequest(Long idPrayerRequest, Date datePrayerRequest) {
+    public PrayerRequest(Integer idPrayerRequest, Date datePrayerRequest) {
         this.idPrayerRequest = idPrayerRequest;
         this.datePrayerRequest = datePrayerRequest;
     }
 
-    public Long getIdPrayerRequest() {
-        return idPrayerRequest;
+    @Override
+    public Integer getIdentifier() {
+        return idPrayerRequest ;
     }
 
-    public void setIdPrayerRequest(Long idPrayerRequest) {
+    public void setIdPrayerRequest(Integer idPrayerRequest) {
         this.idPrayerRequest = idPrayerRequest;
     }
 

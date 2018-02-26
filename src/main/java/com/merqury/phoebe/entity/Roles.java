@@ -46,7 +46,7 @@ import javax.xml.bind.annotation.XmlTransient;
     @NamedQuery(name = "Roles.findByCreatedBy", query = "SELECT r FROM Roles r WHERE r.createdBy = :createdBy"),
     @NamedQuery(name = "Roles.findByDateModified", query = "SELECT r FROM Roles r WHERE r.dateModified = :dateModified"),
     @NamedQuery(name = "Roles.findByModifiedBy", query = "SELECT r FROM Roles r WHERE r.modifiedBy = :modifiedBy")})
-public class Roles implements Serializable {
+public class Roles implements Identifiable, Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
@@ -109,8 +109,9 @@ public class Roles implements Serializable {
         this.modifiedBy = modifiedBy;
     }
 
-    public Integer getIdRole() {
-        return idRole;
+    @Override
+    public Integer getIdentifier() {
+        return idRole ;
     }
 
     public void setIdRole(Integer idRole) {

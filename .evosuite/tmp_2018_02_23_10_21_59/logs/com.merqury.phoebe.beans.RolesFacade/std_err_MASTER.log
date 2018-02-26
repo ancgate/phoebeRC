@@ -1,0 +1,5 @@
+[MASTER] 10:39:38.601 [main] ERROR ExternalProcessHandler - Class com.merqury.phoebe.beans.RolesFacade. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 10:39:38.708 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 10:39:38.813 [main] ERROR TestGeneration - failed to write statistics data

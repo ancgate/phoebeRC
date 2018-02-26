@@ -5,7 +5,6 @@
  */
 package com.merqury.phoebe.beans;
 
-import com.merqury.phoebe.facade.OrgParamFacadeLocal;
 import com.merqury.phoebe.entity.OrgParam;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
@@ -16,9 +15,9 @@ import javax.persistence.PersistenceContext;
  * @author jeffersonbienaime
  */
 @Stateless
-public class OrgParamFacade extends AbstractFacade<OrgParam> implements OrgParamFacadeLocal {
+public class OrgParamFacade extends AbstractFacade<OrgParam> {
 
-    @PersistenceContext(unitName = "com.merqury_phoebe_war_1.0-SNAPSHOTPU")
+    @PersistenceContext
     private EntityManager em;
 
     @Override
@@ -29,5 +28,5 @@ public class OrgParamFacade extends AbstractFacade<OrgParam> implements OrgParam
     public OrgParamFacade() {
         super(OrgParam.class);
     }
-    
+
 }

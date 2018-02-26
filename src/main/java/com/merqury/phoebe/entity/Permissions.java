@@ -44,7 +44,7 @@ import javax.xml.bind.annotation.XmlTransient;
     @NamedQuery(name = "Permissions.findByDateModified", query = "SELECT p FROM Permissions p WHERE p.dateModified = :dateModified"),
     @NamedQuery(name = "Permissions.FindPermissionsInRole", query = "SELECT p FROM Permissions p  INNER JOIN  p.rolesCollection role WHERE role.idRole = :idRole"),
     @NamedQuery(name = "Permissions.findByModifiedBy", query = "SELECT p FROM Permissions p WHERE p.modifiedBy = :modifiedBy")})
-public class Permissions implements Serializable {
+public class Permissions implements Identifiable, Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
@@ -102,8 +102,9 @@ public class Permissions implements Serializable {
         this.modifiedBy = modifiedBy;
     }
 
-    public Integer getIdPermission() {
-        return idPermission;
+    @Override
+    public Integer getIdentifier() {
+        return idPermission ;
     }
 
     public void setIdPermission(Integer idPermission) {

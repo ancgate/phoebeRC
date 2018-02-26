@@ -37,7 +37,7 @@ import javax.xml.bind.annotation.XmlTransient;
     @NamedQuery(name = "NoteType.findByIdNoteType", query = "SELECT n FROM NoteType n WHERE n.idNoteType = :idNoteType"),
     @NamedQuery(name = "NoteType.findByNoteTypeName", query = "SELECT n FROM NoteType n WHERE n.noteTypeName = :noteTypeName"),
     @NamedQuery(name = "NoteType.findByNoteTypeDescription", query = "SELECT n FROM NoteType n WHERE n.noteTypeDescription = :noteTypeDescription")})
-public class NoteType implements Serializable {
+public class NoteType implements Identifiable, Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
@@ -68,7 +68,8 @@ public class NoteType implements Serializable {
         this.noteTypeName = noteTypeName;
     }
 
-    public Integer getIdNoteType() {
+    @Override
+    public Integer getIdentifier() {
         return idNoteType;
     }
 

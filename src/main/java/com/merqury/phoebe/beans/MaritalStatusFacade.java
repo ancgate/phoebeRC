@@ -5,7 +5,6 @@
  */
 package com.merqury.phoebe.beans;
 
-import com.merqury.phoebe.facade.MaritalStatusFacadeLocal;
 import com.merqury.phoebe.entity.MaritalStatus;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
@@ -16,9 +15,9 @@ import javax.persistence.PersistenceContext;
  * @author jeffersonbienaime
  */
 @Stateless
-public class MaritalStatusFacade extends AbstractFacade<MaritalStatus> implements MaritalStatusFacadeLocal {
+public class MaritalStatusFacade extends AbstractFacade<MaritalStatus> {
 
-    @PersistenceContext(unitName = "com.merqury_phoebe_war_1.0-SNAPSHOTPU")
+    @PersistenceContext
     private EntityManager em;
 
     @Override

@@ -41,7 +41,7 @@ import javax.xml.bind.annotation.XmlTransient;
     @NamedQuery(name = "PrayerRequestNature.findByDateCreated", query = "SELECT p FROM PrayerRequestNature p WHERE p.dateCreated = :dateCreated"),
     @NamedQuery(name = "PrayerRequestNature.findByModifiedBy", query = "SELECT p FROM PrayerRequestNature p WHERE p.modifiedBy = :modifiedBy"),
     @NamedQuery(name = "PrayerRequestNature.findByDateModified", query = "SELECT p FROM PrayerRequestNature p WHERE p.dateModified = :dateModified")})
-public class PrayerRequestNature implements Serializable {
+public class PrayerRequestNature implements Identifiable, Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
@@ -99,8 +99,9 @@ public class PrayerRequestNature implements Serializable {
         this.dateModified = dateModified;
     }
 
-    public Integer getIdPrayerRequestNature() {
-        return idPrayerRequestNature;
+    @Override
+    public Integer getIdentifier() {
+        return idPrayerRequestNature ;
     }
 
     public void setIdPrayerRequestNature(Integer idPrayerRequestNature) {

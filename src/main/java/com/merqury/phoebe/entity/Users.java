@@ -49,7 +49,7 @@ import javax.xml.bind.annotation.XmlTransient;
     @NamedQuery(name = "Users.findByCreatedBy", query = "SELECT u FROM Users u WHERE u.createdBy = :createdBy"),
     @NamedQuery(name = "Users.findByDateModified", query = "SELECT u FROM Users u WHERE u.dateModified = :dateModified"),
     @NamedQuery(name = "Users.findByModifiedBy", query = "SELECT u FROM Users u WHERE u.modifiedBy = :modifiedBy")})
-public class Users implements Serializable {
+public class Users implements Identifiable, Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
@@ -124,8 +124,9 @@ public class Users implements Serializable {
         this.modifiedBy = modifiedBy;
     }
 
-    public Integer getIdUser() {
-        return idUser;
+    @Override
+    public Integer getIdentifier() {
+        return idUser ;
     }
 
     public void setIdUser(Integer idUser) {
