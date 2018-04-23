@@ -22,6 +22,7 @@ public class NoteTypeFacade extends AbstractFacade<NoteType> {
 
     @Override
     protected EntityManager getEntityManager() {
+        System.out.println(em.isOpen());
         return em;
     }
 

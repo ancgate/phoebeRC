@@ -28,5 +28,9 @@ public class MaritalStatusFacade extends AbstractFacade<MaritalStatus> {
     public MaritalStatusFacade() {
         super(MaritalStatus.class);
     }   
+
+    public MaritalStatus find(MaritalStatus selectedMaritalStatus) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="phoebe:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="phoebe-1.1-SNAPSHOT.war">
-      <element id="artifact" artifact-name="phoebe:war exploded" />
-    </root>
-  </artifact>
-</component>

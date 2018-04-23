@@ -9,6 +9,10 @@ import com.merqury.phoebe.beans.AbstractFacade;
 import com.merqury.phoebe.beans.OrgParamFacade;
 import com.merqury.phoebe.entity.OrgParam;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+import javax.annotation.PostConstruct;
+import javax.ejb.EJB;
 import javax.inject.Named;
 import javax.enterprise.context.SessionScoped;
 import javax.inject.Inject;
@@ -19,22 +23,74 @@ import javax.inject.Inject;
  */
 @Named(value = "orgParamController")
 @SessionScoped
-public class OrgParamController extends AbstractController<OrgParam> implements Serializable{
+public class OrgParamController implements Serializable {
 
     @Inject
     private OrgParamFacade orgParamfacade;
-    
-    /**
-     * Creates a new instance of OrgParamController
-     */
-    public OrgParamController() {
-        super(OrgParam.class);
+    private OrgParam orgParam = new OrgParam();
+
+    private OrgParam selectedorgParam;
+    private List<OrgParam> orgParams;
+
+    @PostConstruct
+    public void init() {
+        orgParams = new ArrayList<>();
+        orgParams.addAll(orgParamfacade.findAll());
     }
 
-    @Override
-    protected AbstractFacade<OrgParam> getFacade() {
-        return  orgParamfacade;
-    }   
-    
-    
+    public String insert() {
+        this.orgParamfacade.create(orgParam);
+        this.orgParam = new OrgParam();
+        return "orgParamList";
+    }
+
+    public void delete(OrgParam orgParam) {
+        this.orgParamfacade.remove(orgParam);
+    }
+
+    public String update(OrgParam orgParam) {
+        this.orgParam = orgParam;
+        return "updateOrgParam";
+    }
+
+    public String update() {
+        this.orgParamfacade.edit(orgParam);
+        return "orgParamList";
+    }
+
+    public OrgParamController() {
+    }
+
+    public OrgParamFacade getOrgParamfacade() {
+        return orgParamfacade;
+    }
+
+    public void setOrgParamfacade(OrgParamFacade orgParamfacade) {
+        this.orgParamfacade = orgParamfacade;
+    }
+
+    public OrgParam getOrgParam() {
+        return orgParam;
+    }
+
+    public void setOrgParam(OrgParam orgParam) {
+        this.orgParam = orgParam;
+    }
+
+    public OrgParam getSelectedorgParam() {
+        return selectedorgParam;
+    }
+
+    public void setSelectedorgParam(OrgParam selectedorgParam) {
+        this.selectedorgParam = selectedorgParam;
+    }
+
+    public List<OrgParam> getOrgParams() {
+        return orgParams;
+    }
+
+    public void setOrgParams(List<OrgParam> orgParams) {
+        this.orgParams = orgParams;
+    }
+
 }

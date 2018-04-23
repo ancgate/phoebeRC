@@ -17,6 +17,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 import javax.annotation.PostConstruct;
+import javax.ejb.EJB;
 import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
 import javax.inject.Inject;
@@ -43,6 +44,7 @@ public class UsersController implements Serializable {
 
     private Integer[] selectedRoles;
     private List<Roles> roles;
+    
     @Inject
     RolesFacade rolesFacade;
 
@@ -132,23 +134,13 @@ public class UsersController implements Serializable {
     }
 
     public String update() {
-        System.out.println(selectedRoles);
+        System.out.println(selectedRoles.length);
         user = userFacade.find(userId);
         List<Roles> rolesAssigned = Arrays.stream(selectedRoles).map(rolesFacade::find)
                 .collect(Collectors.toList());
         user.setRolesCollection(rolesAssigned);
         this.userFacade.edit(user);
         return "userList";
-    }
-
-    public void onRowSelect(SelectEvent event) {
-        FacesMessage msg = new FacesMessage("Car Selected", ((Users) event.getObject()).getUsername());
-        FacesContext.getCurrentInstance().addMessage(null, msg);
-    }
-
-    public void onRowUnselect(UnselectEvent event) {
-        FacesMessage msg = new FacesMessage("Car Unselected", ((Users) event.getObject()).getUsername());
-        FacesContext.getCurrentInstance().addMessage(null, msg);
     }
 
 }

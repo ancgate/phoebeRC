@@ -38,6 +38,7 @@ import javax.xml.bind.annotation.XmlRootElement;
     @NamedQuery(name = "UserLoginHistory.findByComputerName", query = "SELECT u FROM UserLoginHistory u WHERE u.computerName = :computerName"),
     @NamedQuery(name = "UserLoginHistory.findByRemoteAddress", query = "SELECT u FROM UserLoginHistory u WHERE u.remoteAddress = :remoteAddress"),
     @NamedQuery(name = "UserLoginHistory.findByUserRole", query = "SELECT u FROM UserLoginHistory u WHERE u.userRole = :userRole"),
+    @NamedQuery(name = "UserLoginHistory.findByUserAction", query = "SELECT u FROM UserLoginHistory u WHERE u.userAction = :userAction"),
     @NamedQuery(name = "UserLoginHistory.findByLoginDate", query = "SELECT u FROM UserLoginHistory u WHERE u.loginDate = :loginDate")})
 public class UserLoginHistory implements Identifiable, Serializable {
 
@@ -69,6 +70,11 @@ public class UserLoginHistory implements Identifiable, Serializable {
     private String userRole;
     @Basic(optional = false)
     @NotNull
+    @Size(min = 1, max = 45)
+    @Column(name = "userAction", nullable = false, length = 45)
+    private String userAction;
+    @Basic(optional = false)
+    @NotNull
     @Column(name = "loginDate", nullable = false)
     @Temporal(TemporalType.TIMESTAMP)
     private Date loginDate;
@@ -93,13 +99,14 @@ public class UserLoginHistory implements Identifiable, Serializable {
         
     }
     
-    public UserLoginHistory(String hostName, String computerName, String remoteAddress, String userRole, Date loginDate, Users user) {
+    public UserLoginHistory(String hostName, String computerName, String remoteAddress, String userRole, Date loginDate, Users user, String userAction) {
         this.hostName = hostName;
         this.computerName = computerName;
         this.remoteAddress = remoteAddress;
         this.userRole = userRole;
         this.loginDate = loginDate;
         this.idUser = user;
+        this.userAction= userAction;
     }
 
     @Override
@@ -159,6 +166,14 @@ public class UserLoginHistory implements Identifiable, Serializable {
         this.idUser = idUser;
     }
 
+    public String getUserAction() {
+        return userAction;
+    }
+
+    public void setUserAction(String userAction) {
+        this.userAction = userAction;
+    }
+   
     @Override
     public int hashCode() {
         int hash = 0;

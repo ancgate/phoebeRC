@@ -19,6 +19,7 @@ import com.merqury.phoebe.util.LogTrace;
 import com.merqury.phoebe.util.phoebeUtil;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.ejb.EJB;
 import javax.inject.Inject;
 
 /**
@@ -30,7 +31,6 @@ import javax.inject.Inject;
 public class LoginController implements Serializable {
 
     private String pwd;
-    private String msg;
     private String user;
 
     @Inject
@@ -38,6 +38,7 @@ public class LoginController implements Serializable {
 
     @Inject
     UserLoginHistoryFacade userLoginHistoryFacade;
+    
     UserLoginHistory userLoginHistory;
 
     public String validateUsernamePassword() throws IOException {
@@ -47,9 +48,7 @@ public class LoginController implements Serializable {
             session.setAttribute("username", user);
             session.setAttribute("displayName", userFacadeLocal.getDisplayName(user));
             LogTrace.Log("S'est connecté", user, SessionController.hostname, SessionController.computerName, SessionController.remoteAddress);
-            userLoginHistory = new UserLoginHistory(SessionController.hostname, SessionController.computerName, SessionController.remoteAddress,
-                    userFacadeLocal.getUserRole(user), phoebeUtil.CurrentDate(), userFacadeLocal.getUserByUsername(user));
-            userLoginHistoryFacade.create(userLoginHistory);
+            createUserLoginHistory("Connexion");
             FacesContext.getCurrentInstance().addMessage(
                     null,
                     new FacesMessage(FacesMessage.SEVERITY_INFO,
@@ -71,11 +70,19 @@ public class LoginController implements Serializable {
      */
     public LoginController() {
     }
+    
+    private void createUserLoginHistory(String userAction){
+    
+    userLoginHistory = new UserLoginHistory(SessionController.hostname, SessionController.computerName, SessionController.remoteAddress,
+                    userFacadeLocal.getUserRole(user), phoebeUtil.CurrentDate(), userFacadeLocal.getUserByUsername(user), userAction);
+            userLoginHistoryFacade.create(userLoginHistory); 
+    }
 
     public String logout() {
         HttpSession session = SessionController.getSession();
         try {
             LogTrace.Log("s'est déconnecté", SessionController.getUserName(), SessionController.hostname, SessionController.computerName, SessionController.remoteAddress);
+            createUserLoginHistory("Deconnexion");
         } catch (IOException ex) {
             Logger.getLogger(LoginController.class.getName()).log(Level.SEVERE, null, ex);
         }

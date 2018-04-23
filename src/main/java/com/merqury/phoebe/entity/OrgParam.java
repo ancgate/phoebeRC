@@ -62,6 +62,10 @@ public class OrgParam implements Identifiable, Serializable {
     @Column(name = "modifiedBy", nullable = false, length = 255)
     private String modifiedBy;
 
+    public OrgParam() {
+    }
+    
+    
     public OrgParam(Integer idOrgParam, String attributeName, String attributeValue, Date dateCreated, String createdBy, Date dateModified, String modifiedBy) {
         this.idOrgParam = idOrgParam;
         this.attributeName = attributeName;

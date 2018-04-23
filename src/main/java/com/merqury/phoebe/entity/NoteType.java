@@ -7,6 +7,7 @@ package com.merqury.phoebe.entity;
 
 import java.io.Serializable;
 import java.util.Collection;
+import java.util.Date;
 import javax.persistence.Basic;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -18,6 +19,8 @@ import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import javax.persistence.UniqueConstraint;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
@@ -55,6 +58,27 @@ public class NoteType implements Identifiable, Serializable {
     private String noteTypeDescription;
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "idNoteType")
     private Collection<Note> noteCollection;
+        @Basic(optional = false)
+    @NotNull
+    @Column(name = "dateCreated", nullable = false)
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date dateCreated;
+    @Basic(optional = false)
+    @NotNull
+    @Size(min = 1, max = 255)
+    @Column(name = "createdBy", nullable = false, length = 255)
+    private String createdBy;
+    @Basic(optional = false)
+    @NotNull
+    @Column(name = "dateModified", nullable = false)
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date dateModified;
+    @Basic(optional = false)
+    @NotNull
+    @Size(min = 1, max = 255)
+    @Column(name = "modifiedBy", nullable = false, length = 255)
+    private String modifiedBy;
+    
 
     public NoteType() {
     }
@@ -67,6 +91,17 @@ public class NoteType implements Identifiable, Serializable {
         this.idNoteType = idNoteType;
         this.noteTypeName = noteTypeName;
     }
+
+    public NoteType(String noteTypeName, String noteTypeDescription, Collection<Note> noteCollection, Date dateCreated, String createdBy, Date dateModified, String modifiedBy) {
+        this.noteTypeName = noteTypeName;
+        this.noteTypeDescription = noteTypeDescription;
+        this.noteCollection = noteCollection;
+        this.dateCreated = dateCreated;
+        this.createdBy = createdBy;
+        this.dateModified = dateModified;
+        this.modifiedBy = modifiedBy;
+    }
+    
 
     @Override
     public Integer getIdentifier() {
@@ -101,6 +136,40 @@ public class NoteType implements Identifiable, Serializable {
     public void setNoteCollection(Collection<Note> noteCollection) {
         this.noteCollection = noteCollection;
     }
+
+    public Date getDateCreated() {
+        return dateCreated;
+    }
+
+    public void setDateCreated(Date dateCreated) {
+        this.dateCreated = dateCreated;
+    }
+
+    public String getCreatedBy() {
+        return createdBy;
+    }
+
+    public void setCreatedBy(String createdBy) {
+        this.createdBy = createdBy;
+    }
+
+    public Date getDateModified() {
+        return dateModified;
+    }
+
+    public void setDateModified(Date dateModified) {
+        this.dateModified = dateModified;
+    }
+
+    public String getModifiedBy() {
+        return modifiedBy;
+    }
+
+    public void setModifiedBy(String modifiedBy) {
+        this.modifiedBy = modifiedBy;
+    }
+    
+    
 
     @Override
     public int hashCode() {

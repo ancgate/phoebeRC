@@ -5,14 +5,15 @@
  */
 package com.merqury.phoebe.controller;
 
-import com.merqury.phoebe.beans.AbstractFacade;
 import com.merqury.phoebe.beans.MaritalStatusFacade;
 import com.merqury.phoebe.entity.MaritalStatus;
 import javax.inject.Named;
 import javax.enterprise.context.SessionScoped;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+import javax.annotation.PostConstruct;
 import javax.inject.Inject;
-
 
 /**
  *
@@ -20,21 +21,70 @@ import javax.inject.Inject;
  */
 @Named(value = "maritalStatusController")
 @SessionScoped
-public class MaritalStatusController extends AbstractController<MaritalStatus> implements Serializable{
-    
+public class MaritalStatusController implements Serializable {
+
     @Inject
     private MaritalStatusFacade maritalStatusFacade;
-    
+    private MaritalStatus maritalStatus = new MaritalStatus();
+    private List<MaritalStatus> maritalStatuses;
 
     /**
      * Creates a new instance of MaritalStatusController
      */
     public MaritalStatusController() {
-        super(MaritalStatus.class);
+
     }
 
-    @Override
-    protected AbstractFacade<MaritalStatus> getFacade() {
+    @PostConstruct
+    public void init() {
+        maritalStatuses = new ArrayList<>();
+        maritalStatuses.addAll(maritalStatusFacade.findAll());
+    }
+
+    public String insert() {
+        this.maritalStatusFacade.create(maritalStatus);
+        this.maritalStatus = new MaritalStatus();
+        return "maritalStatusList";
+    }
+
+    public void delete(MaritalStatus maritalStatus) {
+        this.maritalStatusFacade.remove(maritalStatus);
+    }
+
+    public String update(MaritalStatus maritalStatus) {
+        this.maritalStatus = maritalStatus;
+        return "updateMaritalStatus";
+    }
+
+    public String update() {
+        this.maritalStatusFacade.edit(maritalStatus);
+        return "maritalStatusList";
+    }
+
+    public MaritalStatusFacade getMaritalStatusFacade() {
         return maritalStatusFacade;
     }
+
+    public void setMaritalStatusFacade(MaritalStatusFacade maritalStatusFacade) {
+        this.maritalStatusFacade = maritalStatusFacade;
+    }
+
+    public MaritalStatus getMaritalStatus() {
+        return maritalStatus;
+    }
+
+    public void setMaritalStatus(MaritalStatus maritalStatus) {
+        this.maritalStatus = maritalStatus;
+    }
+
+    public List<MaritalStatus> getMaritalStatuses() {
+        return maritalStatuses;
+    }
+
+    public void setMaritalStatuses(List<MaritalStatus> maritalStatuses) {
+        this.maritalStatuses = maritalStatuses;
+    }
+    
+    
+
 }

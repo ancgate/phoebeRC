@@ -7,8 +7,10 @@ package com.merqury.phoebe.controller;
 
 import com.merqury.phoebe.beans.NoteFacade;
 import com.merqury.phoebe.beans.NoteTypeFacade;
+import com.merqury.phoebe.beans.PersonFacade;
 import com.merqury.phoebe.entity.Note;
 import com.merqury.phoebe.entity.NoteType;
+import com.merqury.phoebe.entity.Person;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -32,7 +34,7 @@ import org.primefaces.model.LazyDataModel;
 public class NoteController implements Serializable {
 
     @Inject
-    private NoteFacade noteFacadeLocal;
+    private NoteFacade noteFacade;
     private Note note = new Note();
     
     private Note selectedNote;
@@ -40,13 +42,24 @@ public class NoteController implements Serializable {
 
     private Integer noteId;
     private List<Note> notes;
-
-    private Integer[] selectedNoteType;
-    private List<NoteType> noteTypes;
+    
+    
     @Inject
-    NoteTypeFacade noteTypeFacadeLocal;
+    private PersonFacade personFacade;
+    private Person person = new Person();
+    private List<Person> people;
+    private Integer selectedPerson;
+    
+    
 
-    private LazyDataModel <Note> lazyModelNote; 
+    private Integer selectedNoteType;
+    private NoteType  noteType;
+    private List<NoteType> noteTypes;
+    
+    @Inject
+    NoteTypeFacade noteTypeFacade;
+
+    //private LazyDataModel <Note> lazyModelNote; 
    
     /**
      * Creates a new instance of NoteController
@@ -57,30 +70,34 @@ public class NoteController implements Serializable {
     @PostConstruct
     public void init() {
         noteTypes = new ArrayList<>();
-        noteTypes.addAll(noteTypeFacadeLocal.findAll());
+        noteTypes.addAll(noteTypeFacade.findAll());
+        people = new ArrayList<>();
+        people.addAll(personFacade.findAll());
         notes = new ArrayList<>();
-        notes.addAll(noteFacadeLocal.findAll());
+        notes.addAll(noteFacade.findAll());
     }
-
     public String insert() {
-        this.noteFacadeLocal.create(note);
+        noteType = this.noteTypeFacade.find(selectedNoteType);
+        person = this.personFacade.find(selectedPerson);
+        note.setIdPerson(person);
+        note.setIdNoteType(noteType);
+        this.noteFacade.create(note);
         this.note = new Note();
         return "index";
     }
 
     public void delete(Note note) {
-        this.noteFacadeLocal.remove(note);
+        this.noteFacade.remove(note);
     }
-
     public String update(Note note) {
         this.note = note;
         return "updateNote";
     }
 
     public String update() {
-        System.out.println(selectedNote);
-        note = noteFacadeLocal.find(selectedNote.getIdentifier());
-        this.noteFacadeLocal.edit(note);
+        noteType = this.noteTypeFacade.find(selectedNoteType);
+        note.setIdNoteType(noteType);
+        this.noteFacade.edit(note);
         return "userList";
     }
 
