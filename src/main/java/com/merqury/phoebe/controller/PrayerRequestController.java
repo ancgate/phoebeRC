@@ -79,4 +79,63 @@ public class PrayerRequestController implements Serializable {
         return "prayerRequestList";
     }
 
+    public PersonFacade getPersonFacade() {
+        return personFacade;
+    }
+
+    public void setPersonFacade(PersonFacade personFacade) {
+        this.personFacade = personFacade;
+    }
+
+    public Person getPerson() {
+        return person;
+    }
+
+    public void setPerson(Person person) {
+        this.person = person;
+    }
+
+    public List<Person> getPeople() {
+        return people;
+    }
+
+    public void setPeople(List<Person> people) {
+        this.people = people;
+    }
+
+    public Integer getSelectedPerson() {
+        return selectedPerson;
+    }
+
+    public void setSelectedPerson(Integer selectedPerson) {
+        this.selectedPerson = selectedPerson;
+    }
+
+    public PrayerRequest getPrayerRequest() {
+        return prayerRequest;
+    }
+
+    public void setPrayerRequest(PrayerRequest prayerRequest) {
+        this.prayerRequest = prayerRequest;
+    }
+
+    public List<PrayerRequest> getPrayerRequests() {
+        return prayerRequests;
+    }
+
+    public void setPrayerRequests(List<PrayerRequest> prayerRequests) {
+        this.prayerRequests = prayerRequests;
+    }
+
+    public PrayerRequestFacade getPrayerRequestFacade() {
+        return prayerRequestFacade;
+    }
+
+    public void setPrayerRequestFacade(PrayerRequestFacade prayerRequestFacade) {
+        this.prayerRequestFacade = prayerRequestFacade;
+    }
+    
+    
+    
+
 }
